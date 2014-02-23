@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2694AA18AB69E200E58D62 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C2694AC18AB69E200E58D62 /* Localizable.strings */; };
+		5C7577CB18B6102C0056B344 /* BKQQConnectV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7577CA18B6102C0056B344 /* BKQQConnectV2.m */; };
+		5C85A3111894D87600C2CF1C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C85A3101894D87600C2CF1C /* Security.framework */; };
+		5C85A3181894D88C00C2CF1C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C85A3171894D88C00C2CF1C /* SystemConfiguration.framework */; };
+		5C85A31A1894D89500C2CF1C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C85A3191894D89500C2CF1C /* CFNetwork.framework */; };
+		5CA1772718A5DAA800D855F1 /* BowlKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CA1772618A5DAA800D855F1 /* BowlKit.bundle */; };
+		5CA67B911895FE3500C07693 /* BK500px.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA67B901895FE3500C07693 /* BK500px.m */; };
+		5CA8C6FB18911CA5006A829B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA8C6FA18911CA5006A829B /* ImageIO.framework */; };
+		5CA8C6FE1891202A006A829B /* BowlDemoConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA8C6FD1891202A006A829B /* BowlDemoConfigurator.m */; };
 		5CABD05F1882E79500B2C1BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CABD05E1882E79500B2C1BC /* Foundation.framework */; };
 		5CABD0611882E79500B2C1BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CABD0601882E79500B2C1BC /* CoreGraphics.framework */; };
 		5CABD0631882E79500B2C1BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CABD0621882E79500B2C1BC /* UIKit.framework */; };
@@ -17,6 +26,7 @@
 		5CABD0751882E79600B2C1BC /* KKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CABD0741882E79600B2C1BC /* KKViewController.m */; };
 		5CABD0771882E79600B2C1BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CABD0761882E79600B2C1BC /* Images.xcassets */; };
 		5CABD09D1882E8A900B2C1BC /* libBowlKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CABD09A1882E86B00B2C1BC /* libBowlKit.a */; };
+		5CFBE68B189109FA002096B2 /* BKQQConnectV2OAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFBE689189109FA002096B2 /* BKQQConnectV2OAuthView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +37,26 @@
 			remoteGlobalIDString = 5C0BEDFC1883904A00FE179F;
 			remoteInfo = Reachability;
 		};
-		5C9C20F0188821D500DA2261 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5CABD0941882E86B00B2C1BC /* BowlKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5C0BEE091883904A00FE179F;
-			remoteInfo = ReachabilityTests;
-		};
 		5C9C20F21888235400DA2261 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5CABD0941882E86B00B2C1BC /* BowlKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 5CABCFE41882DFA300B2C1BC;
 			remoteInfo = BowlKit;
+		};
+		5CA1772518A5DAA800D855F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABD0941882E86B00B2C1BC /* BowlKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5CA1770F18A5D28200D855F1;
+			remoteInfo = "Resource Bundle";
+		};
+		5CA67B8C1895F78B00C07693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABD0941882E86B00B2C1BC /* BowlKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C91A6C31894E976001F7C54;
+			remoteInfo = JSONKit;
 		};
 		5CABD0991882E86B00B2C1BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -48,16 +65,59 @@
 			remoteGlobalIDString = 5CABCFE51882DFA300B2C1BC;
 			remoteInfo = BowlKit;
 		};
-		5CABD09B1882E86B00B2C1BC /* PBXContainerItemProxy */ = {
+		5CDF75D118B608190088D450 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5CABD0941882E86B00B2C1BC /* BowlKit.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 5CABCFF51882DFA300B2C1BC;
-			remoteInfo = BowlKitTests;
+			remoteGlobalIDString = 5C4A490918B0BF03004D3315;
+			remoteInfo = BowlKitFramework;
+		};
+		5CFBE691189109FA002096B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABD0941882E86B00B2C1BC /* BowlKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C1EAAA7188BA41500F795E4;
+			remoteInfo = Bowl;
+		};
+		5CFBE693189109FA002096B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABD0941882E86B00B2C1BC /* BowlKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C522892188CF54200F10A0A;
+			remoteInfo = SSKeychain;
+		};
+		5CFBE695189109FA002096B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABD0941882E86B00B2C1BC /* BowlKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C5228F6188D03E700F10A0A;
+			remoteInfo = "Static Library Core";
+		};
+		5CFBE697189109FA002096B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABD0941882E86B00B2C1BC /* BowlKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C0C380D18901446009DF472;
+			remoteInfo = MKNetworkKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C2694AD18AB69EB00E58D62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5C2694AE18AB6A1D00E58D62 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5C2694AF18AB6A1D00E58D62 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5C7577C918B6102C0056B344 /* BKQQConnectV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKQQConnectV2.h; sourceTree = "<group>"; };
+		5C7577CA18B6102C0056B344 /* BKQQConnectV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKQQConnectV2.m; sourceTree = "<group>"; };
+		5C85A3101894D87600C2CF1C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5C85A3171894D88C00C2CF1C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5C85A3191894D89500C2CF1C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5CA176F918A5D21C00D855F1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5CA67B8F1895FE3500C07693 /* BK500px.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BK500px.h; sourceTree = "<group>"; };
+		5CA67B901895FE3500C07693 /* BK500px.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BK500px.m; sourceTree = "<group>"; };
+		5CA8C6F818911C5C006A829B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		5CA8C6FA18911CA5006A829B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		5CA8C6FC1891202A006A829B /* BowlDemoConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowlDemoConfigurator.h; sourceTree = "<group>"; };
+		5CA8C6FD1891202A006A829B /* BowlDemoConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowlDemoConfigurator.m; sourceTree = "<group>"; };
 		5CABD05B1882E79500B2C1BC /* Bowl Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bowl Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CABD05E1882E79500B2C1BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CABD0601882E79500B2C1BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,6 +133,8 @@
 		5CABD0741882E79600B2C1BC /* KKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKViewController.m; sourceTree = "<group>"; };
 		5CABD0761882E79600B2C1BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5CABD0941882E86B00B2C1BC /* BowlKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BowlKit.xcodeproj; sourceTree = "<group>"; };
+		5CFBE688189109FA002096B2 /* BKQQConnectV2OAuthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKQQConnectV2OAuthView.h; sourceTree = "<group>"; };
+		5CFBE689189109FA002096B2 /* BKQQConnectV2OAuthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKQQConnectV2OAuthView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +142,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C85A31A1894D89500C2CF1C /* CFNetwork.framework in Frameworks */,
+				5C85A3181894D88C00C2CF1C /* SystemConfiguration.framework in Frameworks */,
+				5C85A3111894D87600C2CF1C /* Security.framework in Frameworks */,
+				5CA8C6FB18911CA5006A829B /* ImageIO.framework in Frameworks */,
 				5CABD09D1882E8A900B2C1BC /* libBowlKit.a in Frameworks */,
 				5CABD0611882E79500B2C1BC /* CoreGraphics.framework in Frameworks */,
 				5CABD0631882E79500B2C1BC /* UIKit.framework in Frameworks */,
@@ -90,6 +156,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CA67B8E1895FE3500C07693 /* 500px */ = {
+			isa = PBXGroup;
+			children = (
+				5CA67B8F1895FE3500C07693 /* BK500px.h */,
+				5CA67B901895FE3500C07693 /* BK500px.m */,
+			);
+			path = 500px;
+			sourceTree = "<group>";
+		};
 		5CABD0521882E79500B2C1BC = {
 			isa = PBXGroup;
 			children = (
@@ -111,9 +186,15 @@
 		5CABD05D1882E79500B2C1BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C85A3191894D89500C2CF1C /* CFNetwork.framework */,
+				5C85A3171894D88C00C2CF1C /* SystemConfiguration.framework */,
+				5C85A3101894D87600C2CF1C /* Security.framework */,
+				5CA8C6FA18911CA5006A829B /* ImageIO.framework */,
+				5CA8C6F818911C5C006A829B /* CoreImage.framework */,
 				5CABD05E1882E79500B2C1BC /* Foundation.framework */,
 				5CABD0601882E79500B2C1BC /* CoreGraphics.framework */,
 				5CABD0621882E79500B2C1BC /* UIKit.framework */,
+				5CA176F918A5D21C00D855F1 /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,13 +202,17 @@
 		5CABD0641882E79500B2C1BC /* Bowl Demo */ = {
 			isa = PBXGroup;
 			children = (
+				5CA67B8E1895FE3500C07693 /* 500px */,
 				5CABD06D1882E79500B2C1BC /* KKAppDelegate.h */,
+				5CFBE685189109F9002096B2 /* QQConnectV2 */,
 				5CABD06E1882E79600B2C1BC /* KKAppDelegate.m */,
 				5CABD0701882E79600B2C1BC /* Main.storyboard */,
 				5CABD0731882E79600B2C1BC /* KKViewController.h */,
 				5CABD0741882E79600B2C1BC /* KKViewController.m */,
 				5CABD0761882E79600B2C1BC /* Images.xcassets */,
 				5CABD0651882E79500B2C1BC /* Supporting Files */,
+				5CA8C6FC1891202A006A829B /* BowlDemoConfigurator.h */,
+				5CA8C6FD1891202A006A829B /* BowlDemoConfigurator.m */,
 			);
 			path = "Bowl Demo";
 			sourceTree = "<group>";
@@ -139,6 +224,7 @@
 				5CABD0671882E79500B2C1BC /* InfoPlist.strings */,
 				5CABD06A1882E79500B2C1BC /* main.m */,
 				5CABD06C1882E79500B2C1BC /* Bowl Demo-Prefix.pch */,
+				5C2694AC18AB69E200E58D62 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,11 +241,27 @@
 			isa = PBXGroup;
 			children = (
 				5CABD09A1882E86B00B2C1BC /* libBowlKit.a */,
-				5CABD09C1882E86B00B2C1BC /* BowlKitTests.xctest */,
+				5CA1772618A5DAA800D855F1 /* BowlKit.bundle */,
 				5C9C20EF188821D500DA2261 /* libReachability.a */,
-				5C9C20F1188821D500DA2261 /* ReachabilityTests.xctest */,
+				5CFBE692189109FA002096B2 /* Bowl.framework */,
+				5CFBE694189109FA002096B2 /* libSSKeychain.a */,
+				5CFBE696189109FA002096B2 /* libBowlKitCore.a */,
+				5CFBE698189109FA002096B2 /* libMKNetworkKit.a */,
+				5CA67B8D1895F78B00C07693 /* libJSONKit.a */,
+				5CDF75D218B608190088D450 /* libBowlKit.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5CFBE685189109F9002096B2 /* QQConnectV2 */ = {
+			isa = PBXGroup;
+			children = (
+				5C7577C918B6102C0056B344 /* BKQQConnectV2.h */,
+				5C7577CA18B6102C0056B344 /* BKQQConnectV2.m */,
+				5CFBE688189109FA002096B2 /* BKQQConnectV2OAuthView.h */,
+				5CFBE689189109FA002096B2 /* BKQQConnectV2OAuthView.m */,
+			);
+			path = QQConnectV2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +302,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 5CABD0521882E79500B2C1BC;
 			productRefGroup = 5CABD05C1882E79500B2C1BC /* Products */;
@@ -225,11 +328,18 @@
 			remoteRef = 5C9C20EE188821D500DA2261 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5C9C20F1188821D500DA2261 /* ReachabilityTests.xctest */ = {
+		5CA1772618A5DAA800D855F1 /* BowlKit.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = ReachabilityTests.xctest;
-			remoteRef = 5C9C20F0188821D500DA2261 /* PBXContainerItemProxy */;
+			path = BowlKit.bundle;
+			remoteRef = 5CA1772518A5DAA800D855F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5CA67B8D1895F78B00C07693 /* libJSONKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libJSONKit.a;
+			remoteRef = 5CA67B8C1895F78B00C07693 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5CABD09A1882E86B00B2C1BC /* libBowlKit.a */ = {
@@ -239,11 +349,39 @@
 			remoteRef = 5CABD0991882E86B00B2C1BC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5CABD09C1882E86B00B2C1BC /* BowlKitTests.xctest */ = {
+		5CDF75D218B608190088D450 /* libBowlKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBowlKit.a;
+			remoteRef = 5CDF75D118B608190088D450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5CFBE692189109FA002096B2 /* Bowl.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = BowlKitTests.xctest;
-			remoteRef = 5CABD09B1882E86B00B2C1BC /* PBXContainerItemProxy */;
+			path = Bowl.framework;
+			remoteRef = 5CFBE691189109FA002096B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5CFBE694189109FA002096B2 /* libSSKeychain.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSSKeychain.a;
+			remoteRef = 5CFBE693189109FA002096B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5CFBE696189109FA002096B2 /* libBowlKitCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBowlKitCore.a;
+			remoteRef = 5CFBE695189109FA002096B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5CFBE698189109FA002096B2 /* libMKNetworkKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMKNetworkKit.a;
+			remoteRef = 5CFBE697189109FA002096B2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -253,9 +391,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2694AA18AB69E200E58D62 /* Localizable.strings in Resources */,
 				5CABD0771882E79600B2C1BC /* Images.xcassets in Resources */,
 				5CABD0691882E79500B2C1BC /* InfoPlist.strings in Resources */,
 				5CABD0721882E79600B2C1BC /* Main.storyboard in Resources */,
+				5CA1772718A5DAA800D855F1 /* BowlKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +407,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CABD0751882E79600B2C1BC /* KKViewController.m in Sources */,
+				5CA67B911895FE3500C07693 /* BK500px.m in Sources */,
+				5C7577CB18B6102C0056B344 /* BKQQConnectV2.m in Sources */,
+				5CA8C6FE1891202A006A829B /* BowlDemoConfigurator.m in Sources */,
 				5CABD06F1882E79600B2C1BC /* KKAppDelegate.m in Sources */,
 				5CABD06B1882E79500B2C1BC /* main.m in Sources */,
+				5CFBE68B189109FA002096B2 /* BKQQConnectV2OAuthView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +427,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5C2694AC18AB69E200E58D62 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C2694AD18AB69EB00E58D62 /* en */,
+				5C2694AF18AB6A1D00E58D62 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		5CABD0671882E79500B2C1BC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5CABD0681882E79500B2C1BC /* en */,
+				5C2694AE18AB6A1D00E58D62 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -337,6 +491,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -369,6 +524,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

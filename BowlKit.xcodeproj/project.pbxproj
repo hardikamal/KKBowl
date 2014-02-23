@@ -6,24 +6,201 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		5CD67C7718B0A76000AC73A6 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5CD67C7818B0A76000AC73A6 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				5CD67C7F18B0A77B00AC73A6 /* Run Script */,
+			);
+			dependencies = (
+				5C74F69C18B0C25B002A2908 /* PBXTargetDependency */,
+				5CD67C7E18B0A77100AC73A6 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = test;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		5C0BEDB7188381B900FE179F /* DummyLibFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0BEDB6188381B900FE179F /* DummyLibFile.m */; };
-		5C0BEDBB188382C400FE179F /* DummyLibFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0BEDB5188381B900FE179F /* DummyLibFile.h */; };
-		5C1EAA41188B974D00F795E4 /* libReachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0BEDFC1883904A00FE179F /* libReachability.a */; };
-		5C1EAAB6188BA49500F795E4 /* BKReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C20F51888281F00DA2261 /* BKReachability.m */; };
+		5C0BEDBB188382C400FE179F /* DummyLibFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0BEDB5188381B900FE179F /* DummyLibFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C0C382F1890161A009DF472 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C381B1890161A009DF472 /* NSData+MKBase64.m */; };
+		5C0C38301890161A009DF472 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C381D1890161A009DF472 /* NSDate+RFC1123.m */; };
+		5C0C38311890161A009DF472 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C381F1890161A009DF472 /* NSDictionary+RequestEncoding.m */; };
+		5C0C38321890161A009DF472 /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C38211890161A009DF472 /* NSString+MKNetworkKitAdditions.m */; };
+		5C0C38351890161A009DF472 /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C38271890161A009DF472 /* MKNetworkEngine.m */; };
+		5C0C38361890161A009DF472 /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C382A1890161A009DF472 /* MKNetworkOperation.m */; };
+		5C0C38371890161A009DF472 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C382D1890161A009DF472 /* Reachability.m */; };
+		5C0C3839189016BA009DF472 /* NSData+MKBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C381A1890161A009DF472 /* NSData+MKBase64.h */; };
+		5C0C383A189016C1009DF472 /* NSDate+RFC1123.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C381C1890161A009DF472 /* NSDate+RFC1123.h */; };
+		5C0C383B189016C7009DF472 /* NSDictionary+RequestEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C381E1890161A009DF472 /* NSDictionary+RequestEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C0C383C189016CD009DF472 /* NSString+MKNetworkKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C38201890161A009DF472 /* NSString+MKNetworkKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C0C383F189016EA009DF472 /* MKNetworkEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C38261890161A009DF472 /* MKNetworkEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C0C3840189016FC009DF472 /* MKNetworkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C38281890161A009DF472 /* MKNetworkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C0C38411890170C009DF472 /* MKNetworkOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C38291890161A009DF472 /* MKNetworkOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C0C38421890176B009DF472 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C382C1890161A009DF472 /* Reachability.h */; };
+		5C0C3845189017B2009DF472 /* libMKNetworkKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0C380D18901446009DF472 /* libMKNetworkKit.a */; };
 		5C1EAAB7188BA49D00F795E4 /* DummyLibFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0BEDB6188381B900FE179F /* DummyLibFile.m */; };
 		5C1EAAB8188BA4A500F795E4 /* DummyLibFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0BEDB5188381B900FE179F /* DummyLibFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C1EAAB9188BA4B500F795E4 /* BKReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9C20F41888281F00DA2261 /* BKReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C9C20F61888281F00DA2261 /* BKReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C20F51888281F00DA2261 /* BKReachability.m */; };
+		5C2DE11B18B8F20900E6A552 /* BKService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2DE11918B8F20900E6A552 /* BKService.h */; };
+		5C2DE11C18B8F20900E6A552 /* BKService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2DE11918B8F20900E6A552 /* BKService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C2DE11D18B8F20900E6A552 /* BKService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2DE11A18B8F20900E6A552 /* BKService.m */; };
+		5C2DE11E18B8F20900E6A552 /* BKService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2DE11A18B8F20900E6A552 /* BKService.m */; };
+		5C4A490C18B0BF82004D3315 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C91A6C51894EA28001F7C54 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C4A490D18B0BF93004D3315 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CABCFE81882DFA300B2C1BC /* Foundation.framework */; };
+		5C4A490E18B0BF9D004D3315 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C91A6C41894EA28001F7C54 /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5228B7188CF5FB00F10A0A /* libSSKeychain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C522892188CF54200F10A0A /* libSSKeychain.a */; };
+		5C5228F7188D057700F10A0A /* BKConfiguration.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C5228C3188CFF3D00F10A0A /* BKConfiguration.h */; };
+		5C5228F9188D05A300F10A0A /* DefaultBKConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5228C2188CFDD600F10A0A /* DefaultBKConfigurator.m */; };
+		5C5228FA188D05A800F10A0A /* BKConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5228C4188CFF3D00F10A0A /* BKConfiguration.m */; };
+		5C522900188D0CED00F10A0A /* libBowlKitCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5228F6188D03E700F10A0A /* libBowlKitCore.a */; };
+		5C554F8B18969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F7318969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.h */; };
+		5C554F8C18969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F7418969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.m */; };
+		5C554F8F18969B5A00562EE2 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F7718969B5A00562EE2 /* NSString+URLEncoding.h */; };
+		5C554F9018969B5A00562EE2 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F7818969B5A00562EE2 /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C554F9318969B5A00562EE2 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F7C18969B5A00562EE2 /* Base64Transcoder.c */; };
+		5C554F9418969B5A00562EE2 /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F7D18969B5A00562EE2 /* Base64Transcoder.h */; };
+		5C554F9918969B5A00562EE2 /* OAConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F8218969B5A00562EE2 /* OAConsumer.h */; };
+		5C554F9A18969B5A00562EE2 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F8318969B5A00562EE2 /* OAConsumer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C554F9B18969B5A00562EE2 /* OARequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F8418969B5A00562EE2 /* OARequestParameter.h */; };
+		5C554F9C18969B5A00562EE2 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F8518969B5A00562EE2 /* OARequestParameter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C554F9D18969B5A00562EE2 /* OAToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F8618969B5A00562EE2 /* OAToken.h */; };
+		5C554F9E18969B5A00562EE2 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F8718969B5A00562EE2 /* OAToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C554F9F18969B5A00562EE2 /* BKOAuthView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F8918969B5A00562EE2 /* BKOAuthView.h */; };
+		5C554FA018969B5A00562EE2 /* BKOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F8A18969B5A00562EE2 /* BKOAuthView.m */; };
+		5C554FA118969C9100562EE2 /* NSHTTPCookieStorage+DeleteForURL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C554F7318969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.h */; };
+		5C554FA318969CA800562EE2 /* NSString+URLEncoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C554F7718969B5A00562EE2 /* NSString+URLEncoding.h */; };
+		5C554FA518969CCE00562EE2 /* Base64Transcoder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C554F7D18969B5A00562EE2 /* Base64Transcoder.h */; };
+		5C554FA818969D0800562EE2 /* OAConsumer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C554F8218969B5A00562EE2 /* OAConsumer.h */; };
+		5C554FA918969D1300562EE2 /* OARequestParameter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C554F8418969B5A00562EE2 /* OARequestParameter.h */; };
+		5C554FAA18969D2300562EE2 /* OAToken.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C554F8618969B5A00562EE2 /* OAToken.h */; };
+		5C554FAB18969D3C00562EE2 /* BKOAuthView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C554F8918969B5A00562EE2 /* BKOAuthView.h */; };
+		5C554FB01896A05200562EE2 /* BK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554FAC1896A05200562EE2 /* BK.h */; };
+		5C554FB11896A05200562EE2 /* BK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554FAD1896A05200562EE2 /* BK.m */; };
+		5C554FB41896A0B400562EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CABCFE81882DFA300B2C1BC /* Foundation.framework */; };
+		5C554FB51896A10700562EE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CABD00E1882E04C00B2C1BC /* UIKit.framework */; };
+		5C554FB81896A26F00562EE2 /* BKActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554FB61896A26F00562EE2 /* BKActivityIndicator.h */; };
+		5C554FB91896A26F00562EE2 /* BKActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554FB71896A26F00562EE2 /* BKActivityIndicator.m */; };
+		5C5BFB4C18B1F61E00CDEA8F /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C381B1890161A009DF472 /* NSData+MKBase64.m */; };
+		5C5BFB4E18B1F61E00CDEA8F /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C381D1890161A009DF472 /* NSDate+RFC1123.m */; };
+		5C5BFB5018B1F61E00CDEA8F /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C381F1890161A009DF472 /* NSDictionary+RequestEncoding.m */; };
+		5C5BFB5218B1F61E00CDEA8F /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C38211890161A009DF472 /* NSString+MKNetworkKitAdditions.m */; };
+		5C5BFB5718B1F64300CDEA8F /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C38271890161A009DF472 /* MKNetworkEngine.m */; };
+		5C5BFB5818B1F64800CDEA8F /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C382A1890161A009DF472 /* MKNetworkOperation.m */; };
+		5C5BFB5918B1F64E00CDEA8F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C382D1890161A009DF472 /* Reachability.m */; };
+		5C5BFB5A18B1F65600CDEA8F /* DefaultBKConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5228C2188CFDD600F10A0A /* DefaultBKConfigurator.m */; };
+		5C5BFB5B18B1F65C00CDEA8F /* BKConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5228C4188CFF3D00F10A0A /* BKConfiguration.m */; };
+		5C5BFB5C18B1F66900CDEA8F /* BKActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554FB71896A26F00562EE2 /* BKActivityIndicator.m */; };
+		5C5BFB5D18B1F66F00CDEA8F /* BK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554FAD1896A05200562EE2 /* BK.m */; };
+		5C5BFB5E18B1F67B00CDEA8F /* NSHTTPCookieStorage+DeleteForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F7418969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.m */; };
+		5C5BFB6218B1F67B00CDEA8F /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F7818969B5A00562EE2 /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C5BFB6518B1F69700CDEA8F /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F7C18969B5A00562EE2 /* Base64Transcoder.c */; };
+		5C5BFB6B18B1F6AB00CDEA8F /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F8318969B5A00562EE2 /* OAConsumer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C5BFB6D18B1F6AB00CDEA8F /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F8518969B5A00562EE2 /* OARequestParameter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C5BFB6F18B1F6AB00CDEA8F /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F8718969B5A00562EE2 /* OAToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C5BFB7018B1F6D600CDEA8F /* BKOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C554F8A18969B5A00562EE2 /* BKOAuthView.m */; };
+		5C5BFB7118B1F6DD00CDEA8F /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD335C188ECEA400CE692A /* SSKeychain.m */; };
+		5C5BFB7218B1F6E600CDEA8F /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD335E188ECEA400CE692A /* SSKeychainQuery.m */; };
+		5C5BFB7318B1F71F00CDEA8F /* NSData+MKBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C381A1890161A009DF472 /* NSData+MKBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB7518B1F71F00CDEA8F /* NSDate+RFC1123.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C381C1890161A009DF472 /* NSDate+RFC1123.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB7718B1F71F00CDEA8F /* NSDictionary+RequestEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C381E1890161A009DF472 /* NSDictionary+RequestEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB7918B1F71F00CDEA8F /* NSString+MKNetworkKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C38201890161A009DF472 /* NSString+MKNetworkKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB7F18B1F73C00CDEA8F /* MKNetworkEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C38261890161A009DF472 /* MKNetworkEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB8118B1F73C00CDEA8F /* MKNetworkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C38281890161A009DF472 /* MKNetworkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB8218B1F73C00CDEA8F /* MKNetworkOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C38291890161A009DF472 /* MKNetworkOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB8418B1F75200CDEA8F /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C382C1890161A009DF472 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB8518B1F75B00CDEA8F /* DefaultBKConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5228C1188CFDD600F10A0A /* DefaultBKConfigurator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB8618B1F76300CDEA8F /* BKConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5228C3188CFF3D00F10A0A /* BKConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB8718B1F76F00CDEA8F /* BK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554FAC1896A05200562EE2 /* BK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB8818B1F76F00CDEA8F /* BKActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554FB61896A26F00562EE2 /* BKActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB8918B1F78500CDEA8F /* NSHTTPCookieStorage+DeleteForURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F7318969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB8D18B1F78500CDEA8F /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F7718969B5A00562EE2 /* NSString+URLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB9118B1F80500CDEA8F /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFD335B188ECEA400CE692A /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB9218B1F80D00CDEA8F /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFD335D188ECEA400CE692A /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFB9418B1F82900CDEA8F /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F7D18969B5A00562EE2 /* Base64Transcoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFBA118B1F96500CDEA8F /* BKOAuthView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F8918969B5A00562EE2 /* BKOAuthView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFBA418B1F9B800CDEA8F /* OAConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F8218969B5A00562EE2 /* OAConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFBA518B1F9C100CDEA8F /* OARequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F8418969B5A00562EE2 /* OARequestParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5BFBA618B1F9C800CDEA8F /* OAToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C554F8618969B5A00562EE2 /* OAToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C8442741890BF96001702C7 /* MKNetworkEngine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C0C38261890161A009DF472 /* MKNetworkEngine.h */; };
+		5C8442751890BF9E001702C7 /* MKNetworkKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C0C38281890161A009DF472 /* MKNetworkKit.h */; };
+		5C8442761890BFA4001702C7 /* MKNetworkOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C0C38291890161A009DF472 /* MKNetworkOperation.h */; };
+		5C8442771890BFAE001702C7 /* NSDictionary+RequestEncoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C0C381E1890161A009DF472 /* NSDictionary+RequestEncoding.h */; };
+		5C8442781890BFBB001702C7 /* NSString+MKNetworkKitAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C0C38201890161A009DF472 /* NSString+MKNetworkKitAdditions.h */; };
+		5C85A3801894DEC200C2CF1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CABCFE81882DFA300B2C1BC /* Foundation.framework */; };
+		5C91A6AD1894E976001F7C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CABCFE81882DFA300B2C1BC /* Foundation.framework */; };
+		5C91A6C71894EA28001F7C54 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C91A6C51894EA28001F7C54 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C91A6C91894EA50001F7C54 /* JSONKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C91A6C41894EA28001F7C54 /* JSONKit.h */; };
+		5C91A6CC1894EAA4001F7C54 /* libJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C91A6C31894E976001F7C54 /* libJSONKit.a */; };
+		5CA1772118A5D3AA00D855F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C554FF41896A60700562EE2 /* Localizable.strings */; };
+		5CA8C6FF189120A6006A829B /* DefaultBKConfigurator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C5228C1188CFDD600F10A0A /* DefaultBKConfigurator.h */; };
+		5CFD335F188ECEC300CE692A /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD335C188ECEA400CE692A /* SSKeychain.m */; };
+		5CFD3360188ECEC900CE692A /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD335E188ECEA400CE692A /* SSKeychainQuery.m */; };
+		5CFD3361188ECEF000CE692A /* SSKeychain.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CFD335B188ECEA400CE692A /* SSKeychain.h */; };
+		5CFD3362188ECEF600CE692A /* SSKeychainQuery.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CFD335D188ECEA400CE692A /* SSKeychainQuery.h */; };
+		5CFD3363188ECF0000CE692A /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD335C188ECEA400CE692A /* SSKeychain.m */; };
+		5CFD3364188ECF0500CE692A /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD335E188ECEA400CE692A /* SSKeychainQuery.m */; };
+		5CFD3365188ECF0F00CE692A /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFD335B188ECEA400CE692A /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CFD3366188ECF1500CE692A /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFD335D188ECEA400CE692A /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C0BEE1F188390F200FE179F /* PBXContainerItemProxy */ = {
+		5C0C3843189017A9009DF472 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5CABCFDD1882DFA200B2C1BC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C0BEDFB1883904A00FE179F;
-			remoteInfo = Reachability;
+			remoteGlobalIDString = 5C0C380218901446009DF472;
+			remoteInfo = MKNetworkKit;
+		};
+		5C4A48F218B0BF03004D3315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABCFDD1882DFA200B2C1BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA1770E18A5D28200D855F1;
+			remoteInfo = "Resource Bundle";
+		};
+		5C5228B8188CF60400F10A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABCFDD1882DFA200B2C1BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C522891188CF54200F10A0A;
+			remoteInfo = SSKeychain;
+		};
+		5C5228FE188D0CD200F10A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABCFDD1882DFA200B2C1BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5228EB188D03E700F10A0A;
+			remoteInfo = "Static Library Core";
+		};
+		5C74F69B18B0C25B002A2908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABCFDD1882DFA200B2C1BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C4A48F018B0BF03004D3315;
+			remoteInfo = BowlKitFramework;
+		};
+		5C91A6CA1894EA7E001F7C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABCFDD1882DFA200B2C1BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C91A6A11894E976001F7C54;
+			remoteInfo = JSONKit;
+		};
+		5CA1772218A5D4CB00D855F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABCFDD1882DFA200B2C1BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA1770E18A5D28200D855F1;
+			remoteInfo = "Resource Bundle";
+		};
+		5CD67C7D18B0A77100AC73A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CABCFDD1882DFA200B2C1BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA1770E18A5D28200D855F1;
+			remoteInfo = "Resource Bundle";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -34,6 +211,68 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C110B611890BEEA00FD885C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5C8442781890BFBB001702C7 /* NSString+MKNetworkKitAdditions.h in CopyFiles */,
+				5C8442771890BFAE001702C7 /* NSDictionary+RequestEncoding.h in CopyFiles */,
+				5C8442761890BFA4001702C7 /* MKNetworkOperation.h in CopyFiles */,
+				5C8442751890BF9E001702C7 /* MKNetworkKit.h in CopyFiles */,
+				5C8442741890BF96001702C7 /* MKNetworkEngine.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4A490218B0BF03004D3315 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C522890188CF54200F10A0A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5CFD3362188ECEF600CE692A /* SSKeychainQuery.h in CopyFiles */,
+				5CFD3361188ECEF000CE692A /* SSKeychain.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5228F0188D03E700F10A0A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5C554FAB18969D3C00562EE2 /* BKOAuthView.h in CopyFiles */,
+				5C554FAA18969D2300562EE2 /* OAToken.h in CopyFiles */,
+				5C554FA918969D1300562EE2 /* OARequestParameter.h in CopyFiles */,
+				5C554FA818969D0800562EE2 /* OAConsumer.h in CopyFiles */,
+				5C554FA518969CCE00562EE2 /* Base64Transcoder.h in CopyFiles */,
+				5C554FA318969CA800562EE2 /* NSString+URLEncoding.h in CopyFiles */,
+				5C554FA118969C9100562EE2 /* NSHTTPCookieStorage+DeleteForURL.h in CopyFiles */,
+				5CA8C6FF189120A6006A829B /* DefaultBKConfigurator.h in CopyFiles */,
+				5C5228F7188D057700F10A0A /* BKConfiguration.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C91A6B91894E976001F7C54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5C91A6C91894EA50001F7C54 /* JSONKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,13 +292,80 @@
 		5C0BEDB5188381B900FE179F /* DummyLibFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyLibFile.h; sourceTree = "<group>"; };
 		5C0BEDB6188381B900FE179F /* DummyLibFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyLibFile.m; sourceTree = "<group>"; };
 		5C0BEDFC1883904A00FE179F /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0C380D18901446009DF472 /* libMKNetworkKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKNetworkKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0C381A1890161A009DF472 /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
+		5C0C381B1890161A009DF472 /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
+		5C0C381C1890161A009DF472 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		5C0C381D1890161A009DF472 /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		5C0C381E1890161A009DF472 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		5C0C381F1890161A009DF472 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		5C0C38201890161A009DF472 /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		5C0C38211890161A009DF472 /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		5C0C38261890161A009DF472 /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKNetworkEngine.h; path = Submodules/MKNetworkKit/MKNetworkKit/MKNetworkEngine.h; sourceTree = SOURCE_ROOT; };
+		5C0C38271890161A009DF472 /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKNetworkEngine.m; path = Submodules/MKNetworkKit/MKNetworkKit/MKNetworkEngine.m; sourceTree = SOURCE_ROOT; };
+		5C0C38281890161A009DF472 /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKNetworkKit.h; path = Submodules/MKNetworkKit/MKNetworkKit/MKNetworkKit.h; sourceTree = SOURCE_ROOT; };
+		5C0C38291890161A009DF472 /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKNetworkOperation.h; path = Submodules/MKNetworkKit/MKNetworkKit/MKNetworkOperation.h; sourceTree = SOURCE_ROOT; };
+		5C0C382A1890161A009DF472 /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKNetworkOperation.m; path = Submodules/MKNetworkKit/MKNetworkKit/MKNetworkOperation.m; sourceTree = SOURCE_ROOT; };
+		5C0C382C1890161A009DF472 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5C0C382D1890161A009DF472 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		5C1EAAA7188BA41500F795E4 /* Bowl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bowl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C9C20F41888281F00DA2261 /* BKReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKReachability.h; sourceTree = "<group>"; };
-		5C9C20F51888281F00DA2261 /* BKReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKReachability.m; sourceTree = "<group>"; };
+		5C2694DB18AB714300E58D62 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5C2694DD18AB715800E58D62 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5C2694DF18AB716100E58D62 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5C2694E118AB716A00E58D62 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		5C2694E318AB717500E58D62 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		5C2694E618AB719100E58D62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C2DE11918B8F20900E6A552 /* BKService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKService.h; sourceTree = "<group>"; };
+		5C2DE11A18B8F20900E6A552 /* BKService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKService.m; sourceTree = "<group>"; };
+		5C4A490918B0BF03004D3315 /* libBowlKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBowlKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C522892188CF54200F10A0A /* libSSKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5228C1188CFDD600F10A0A /* DefaultBKConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultBKConfigurator.h; sourceTree = "<group>"; };
+		5C5228C2188CFDD600F10A0A /* DefaultBKConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultBKConfigurator.m; sourceTree = "<group>"; };
+		5C5228C3188CFF3D00F10A0A /* BKConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKConfiguration.h; sourceTree = "<group>"; };
+		5C5228C4188CFF3D00F10A0A /* BKConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKConfiguration.m; sourceTree = "<group>"; };
+		5C5228F6188D03E700F10A0A /* libBowlKitCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBowlKitCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C522903188D1A0A00F10A0A /* SuppressPerformSelectorWarning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuppressPerformSelectorWarning.h; sourceTree = "<group>"; };
+		5C522904188D1C3A00F10A0A /* Debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		5C554F7318969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSHTTPCookieStorage+DeleteForURL.h"; sourceTree = "<group>"; };
+		5C554F7418969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPCookieStorage+DeleteForURL.m"; sourceTree = "<group>"; };
+		5C554F7718969B5A00562EE2 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		5C554F7818969B5A00562EE2 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		5C554F7C18969B5A00562EE2 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		5C554F7D18969B5A00562EE2 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		5C554F8218969B5A00562EE2 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		5C554F8318969B5A00562EE2 /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		5C554F8418969B5A00562EE2 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		5C554F8518969B5A00562EE2 /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		5C554F8618969B5A00562EE2 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		5C554F8718969B5A00562EE2 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		5C554F8918969B5A00562EE2 /* BKOAuthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKOAuthView.h; sourceTree = "<group>"; };
+		5C554F8A18969B5A00562EE2 /* BKOAuthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKOAuthView.m; sourceTree = "<group>"; };
+		5C554FAC1896A05200562EE2 /* BK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BK.h; sourceTree = "<group>"; };
+		5C554FAD1896A05200562EE2 /* BK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BK.m; sourceTree = "<group>"; };
+		5C554FB61896A26F00562EE2 /* BKActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKActivityIndicator.h; sourceTree = "<group>"; };
+		5C554FB71896A26F00562EE2 /* BKActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKActivityIndicator.m; sourceTree = "<group>"; };
+		5C554FF51896A60700562EE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5C554FF61896A62F00562EE2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5C91A6C31894E976001F7C54 /* libJSONKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C91A6C41894EA28001F7C54 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = Submodules/JSONKit/JSONKit.h; sourceTree = SOURCE_ROOT; };
+		5C91A6C51894EA28001F7C54 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = Submodules/JSONKit/JSONKit.m; sourceTree = SOURCE_ROOT; };
+		5CA176E718A5CFA700D855F1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5CA1770F18A5D28200D855F1 /* BowlKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA1771018A5D28200D855F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		5CA1771318A5D28200D855F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CA1771418A5D28200D855F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5CA1771518A5D28200D855F1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5CA1772018A5D2E700D855F1 /* BowlKitLibraryResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BowlKitLibraryResources-Info.plist"; sourceTree = "<group>"; };
+		5CA19C2318B09DAD00A519D1 /* libBowlKit-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libBowlKit-ios.a"; path = "../../Desktop/libBowlKit-ios.a"; sourceTree = "<group>"; };
+		5CA8C6F71891193E006A829B /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		5CABCFE51882DFA300B2C1BC /* libBowlKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBowlKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CABCFE81882DFA300B2C1BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CABCFF61882DFA300B2C1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5CABD00E1882E04C00B2C1BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CFD335B188ECEA400CE692A /* SSKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = Submodules/sskeychain/SSKeychain/SSKeychain.h; sourceTree = SOURCE_ROOT; };
+		5CFD335C188ECEA400CE692A /* SSKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = Submodules/sskeychain/SSKeychain/SSKeychain.m; sourceTree = SOURCE_ROOT; };
+		5CFD335D188ECEA400CE692A /* SSKeychainQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = Submodules/sskeychain/SSKeychain/SSKeychainQuery.h; sourceTree = SOURCE_ROOT; };
+		5CFD335E188ECEA400CE692A /* SSKeychainQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = Submodules/sskeychain/SSKeychain/SSKeychainQuery.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +376,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C0C380618901446009DF472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C85A3801894DEC200C2CF1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C1EAAA2188BA41500F795E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4A48FD18B0BF03004D3315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4A490D18B0BF93004D3315 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C52288F188CF54200F10A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5228EF188D03E700F10A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C554FB51896A10700562EE2 /* UIKit.framework in Frameworks */,
+				5C554FB41896A0B400562EE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C91A6AC1894E976001F7C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C91A6AD1894E976001F7C54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA1770C18A5D28200D855F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,7 +434,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C1EAA41188B974D00F795E4 /* libReachability.a in Frameworks */,
+				5C91A6CC1894EAA4001F7C54 /* libJSONKit.a in Frameworks */,
+				5C0C3845189017B2009DF472 /* libMKNetworkKit.a in Frameworks */,
+				5C522900188D0CED00F10A0A /* libBowlKitCore.a in Frameworks */,
+				5C5228B7188CF5FB00F10A0A /* libSSKeychain.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,13 +454,6 @@
 			path = BowlKitLibrary;
 			sourceTree = "<group>";
 		};
-		5C0BEDB21883808C00FE179F /* BowlKitLibraryResources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BowlKitLibraryResources;
-			sourceTree = "<group>";
-		};
 		5C0BEDB31883808C00FE179F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,9 +465,12 @@
 		5C0BEDEF18838B3300FE179F /* BowlKit */ = {
 			isa = PBXGroup;
 			children = (
+				5C0C3801189013E3009DF472 /* MKNetworkKit */,
+				5C91A6C81894EA2F001F7C54 /* JSONKit */,
+				5C522905188D29A800F10A0A /* Service */,
+				5C5228C0188CFD4800F10A0A /* Configuration */,
 				5C0BEDF018838B3300FE179F /* Core */,
 				5C0BEDF118838B3300FE179F /* Localization */,
-				5C0BEDF218838B3300FE179F /* Reachability */,
 			);
 			path = BowlKit;
 			sourceTree = "<group>";
@@ -126,6 +478,13 @@
 		5C0BEDF018838B3300FE179F /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				5C554FAC1896A05200562EE2 /* BK.h */,
+				5C554FB61896A26F00562EE2 /* BKActivityIndicator.h */,
+				5C554FB71896A26F00562EE2 /* BKActivityIndicator.m */,
+				5C554FAD1896A05200562EE2 /* BK.m */,
+				5C554F7118969B5A00562EE2 /* OAuth */,
+				5CFD335A188ECE7200CE692A /* Helpers */,
+				5C522902188D19B700F10A0A /* Declarations */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -133,25 +492,170 @@
 		5C0BEDF118838B3300FE179F /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				5C554FF41896A60700562EE2 /* Localizable.strings */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
 		};
-		5C0BEDF218838B3300FE179F /* Reachability */ = {
+		5C0C3801189013E3009DF472 /* MKNetworkKit */ = {
 			isa = PBXGroup;
 			children = (
-				5C9C20F41888281F00DA2261 /* BKReachability.h */,
-				5C9C20F51888281F00DA2261 /* BKReachability.m */,
+				5C0C38171890161A009DF472 /* Categories */,
+				5C0C38261890161A009DF472 /* MKNetworkEngine.h */,
+				5C0C38271890161A009DF472 /* MKNetworkEngine.m */,
+				5C0C38281890161A009DF472 /* MKNetworkKit.h */,
+				5C0C38291890161A009DF472 /* MKNetworkOperation.h */,
+				5C0C382A1890161A009DF472 /* MKNetworkOperation.m */,
+				5C0C382B1890161A009DF472 /* Reachability */,
 			);
-			path = Reachability;
+			name = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		5C0C38171890161A009DF472 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5C0C381A1890161A009DF472 /* NSData+MKBase64.h */,
+				5C0C381B1890161A009DF472 /* NSData+MKBase64.m */,
+				5C0C381C1890161A009DF472 /* NSDate+RFC1123.h */,
+				5C0C381D1890161A009DF472 /* NSDate+RFC1123.m */,
+				5C0C381E1890161A009DF472 /* NSDictionary+RequestEncoding.h */,
+				5C0C381F1890161A009DF472 /* NSDictionary+RequestEncoding.m */,
+				5C0C38201890161A009DF472 /* NSString+MKNetworkKitAdditions.h */,
+				5C0C38211890161A009DF472 /* NSString+MKNetworkKitAdditions.m */,
+			);
+			name = Categories;
+			path = Submodules/MKNetworkKit/MKNetworkKit/Categories;
+			sourceTree = SOURCE_ROOT;
+		};
+		5C0C382B1890161A009DF472 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5C0C382C1890161A009DF472 /* Reachability.h */,
+				5C0C382D1890161A009DF472 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = Submodules/MKNetworkKit/MKNetworkKit/Reachability;
+			sourceTree = SOURCE_ROOT;
+		};
+		5C5228C0188CFD4800F10A0A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				5C5228C1188CFDD600F10A0A /* DefaultBKConfigurator.h */,
+				5C5228C2188CFDD600F10A0A /* DefaultBKConfigurator.m */,
+				5C5228C3188CFF3D00F10A0A /* BKConfiguration.h */,
+				5C5228C4188CFF3D00F10A0A /* BKConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		5C522902188D19B700F10A0A /* Declarations */ = {
+			isa = PBXGroup;
+			children = (
+				5CA8C6F71891193E006A829B /* Singleton.h */,
+				5C522903188D1A0A00F10A0A /* SuppressPerformSelectorWarning.h */,
+				5C522904188D1C3A00F10A0A /* Debug.h */,
+			);
+			path = Declarations;
+			sourceTree = "<group>";
+		};
+		5C522905188D29A800F10A0A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5C2DE11918B8F20900E6A552 /* BKService.h */,
+				5C2DE11A18B8F20900E6A552 /* BKService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5C554F7118969B5A00562EE2 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				5C554F7218969B5A00562EE2 /* Categories */,
+				5C554F7B18969B5A00562EE2 /* Crypto */,
+				5C554F8218969B5A00562EE2 /* OAConsumer.h */,
+				5C554F8318969B5A00562EE2 /* OAConsumer.m */,
+				5C554F8418969B5A00562EE2 /* OARequestParameter.h */,
+				5C554F8518969B5A00562EE2 /* OARequestParameter.m */,
+				5C554F8618969B5A00562EE2 /* OAToken.h */,
+				5C554F8718969B5A00562EE2 /* OAToken.m */,
+				5C554F8818969B5A00562EE2 /* UI */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		5C554F7218969B5A00562EE2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5C554F7318969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.h */,
+				5C554F7418969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.m */,
+				5C554F7718969B5A00562EE2 /* NSString+URLEncoding.h */,
+				5C554F7818969B5A00562EE2 /* NSString+URLEncoding.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5C554F7B18969B5A00562EE2 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				5C554F7C18969B5A00562EE2 /* Base64Transcoder.c */,
+				5C554F7D18969B5A00562EE2 /* Base64Transcoder.h */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		5C554F8818969B5A00562EE2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5C554F8918969B5A00562EE2 /* BKOAuthView.h */,
+				5C554F8A18969B5A00562EE2 /* BKOAuthView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5C84427A1890C105001702C7 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				5CFD335B188ECEA400CE692A /* SSKeychain.h */,
+				5CFD335C188ECEA400CE692A /* SSKeychain.m */,
+				5CFD335D188ECEA400CE692A /* SSKeychainQuery.h */,
+				5CFD335E188ECEA400CE692A /* SSKeychainQuery.m */,
+			);
+			name = SSKeychain;
+			sourceTree = "<group>";
+		};
+		5C91A6C81894EA2F001F7C54 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				5C91A6C41894EA28001F7C54 /* JSONKit.h */,
+				5C91A6C51894EA28001F7C54 /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		5CA1771218A5D28200D855F1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1771318A5D28200D855F1 /* Foundation.framework */,
+				5CA1771418A5D28200D855F1 /* CoreData.framework */,
+				5CA1771518A5D28200D855F1 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5CA1771618A5D28200D855F1 /* BowlKitLibraryResources */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1772018A5D2E700D855F1 /* BowlKitLibraryResources-Info.plist */,
+			);
+			path = BowlKitLibraryResources;
 			sourceTree = "<group>";
 		};
 		5CABCFDC1882DFA200B2C1BC = {
 			isa = PBXGroup;
 			children = (
 				5C0BEDB11883808C00FE179F /* BowlKitLibrary */,
-				5C0BEDB21883808C00FE179F /* BowlKitLibraryResources */,
 				5C0BEDB31883808C00FE179F /* Classes */,
+				5CA1771618A5D28200D855F1 /* BowlKitLibraryResources */,
 				5CABCFE71882DFA300B2C1BC /* Frameworks */,
 				5CABCFE61882DFA300B2C1BC /* Products */,
 			);
@@ -163,6 +667,12 @@
 				5CABCFE51882DFA300B2C1BC /* libBowlKit.a */,
 				5C0BEDFC1883904A00FE179F /* libReachability.a */,
 				5C1EAAA7188BA41500F795E4 /* Bowl.framework */,
+				5C522892188CF54200F10A0A /* libSSKeychain.a */,
+				5C5228F6188D03E700F10A0A /* libBowlKitCore.a */,
+				5C0C380D18901446009DF472 /* libMKNetworkKit.a */,
+				5C91A6C31894E976001F7C54 /* libJSONKit.a */,
+				5CA1770F18A5D28200D855F1 /* BowlKit.bundle */,
+				5C4A490918B0BF03004D3315 /* libBowlKit.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,11 +680,29 @@
 		5CABCFE71882DFA300B2C1BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5CA19C2318B09DAD00A519D1 /* libBowlKit-ios.a */,
+				5C2694E618AB719100E58D62 /* CoreGraphics.framework */,
+				5C2694E318AB717500E58D62 /* CoreImage.framework */,
+				5C2694E118AB716A00E58D62 /* ImageIO.framework */,
+				5C2694DF18AB716100E58D62 /* Security.framework */,
+				5C2694DD18AB715800E58D62 /* SystemConfiguration.framework */,
+				5C2694DB18AB714300E58D62 /* CFNetwork.framework */,
 				5CABD00E1882E04C00B2C1BC /* UIKit.framework */,
 				5CABCFE81882DFA300B2C1BC /* Foundation.framework */,
 				5CABCFF61882DFA300B2C1BC /* XCTest.framework */,
+				5CA176E718A5CFA700D855F1 /* CoreFoundation.framework */,
+				5CA1771018A5D28200D855F1 /* Cocoa.framework */,
+				5CA1771218A5D28200D855F1 /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CFD335A188ECE7200CE692A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5C84427A1890C105001702C7 /* SSKeychain */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,12 +716,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C0C3838189016AC009DF472 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0C38411890170C009DF472 /* MKNetworkOperation.h in Headers */,
+				5C0C3840189016FC009DF472 /* MKNetworkKit.h in Headers */,
+				5C0C383F189016EA009DF472 /* MKNetworkEngine.h in Headers */,
+				5C0C383B189016C7009DF472 /* NSDictionary+RequestEncoding.h in Headers */,
+				5C0C383C189016CD009DF472 /* NSString+MKNetworkKitAdditions.h in Headers */,
+				5C0C38421890176B009DF472 /* Reachability.h in Headers */,
+				5C0C383A189016C1009DF472 /* NSDate+RFC1123.h in Headers */,
+				5C0C3839189016BA009DF472 /* NSData+MKBase64.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C1EAAA3188BA41500F795E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C1EAAB9188BA4B500F795E4 /* BKReachability.h in Headers */,
 				5C1EAAB8188BA4A500F795E4 /* DummyLibFile.h in Headers */,
+				5CFD3366188ECF1500CE692A /* SSKeychainQuery.h in Headers */,
+				5CFD3365188ECF0F00CE692A /* SSKeychain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4A490318B0BF03004D3315 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4A490E18B0BF9D004D3315 /* JSONKit.h in Headers */,
+				5C5BFB9418B1F82900CDEA8F /* Base64Transcoder.h in Headers */,
+				5C5BFB9218B1F80D00CDEA8F /* SSKeychainQuery.h in Headers */,
+				5C5BFB9118B1F80500CDEA8F /* SSKeychain.h in Headers */,
+				5C5BFB8918B1F78500CDEA8F /* NSHTTPCookieStorage+DeleteForURL.h in Headers */,
+				5C5BFB8D18B1F78500CDEA8F /* NSString+URLEncoding.h in Headers */,
+				5C5BFB8718B1F76F00CDEA8F /* BK.h in Headers */,
+				5C5BFB8818B1F76F00CDEA8F /* BKActivityIndicator.h in Headers */,
+				5C5BFB8618B1F76300CDEA8F /* BKConfiguration.h in Headers */,
+				5C5BFB8518B1F75B00CDEA8F /* DefaultBKConfigurator.h in Headers */,
+				5C5BFB8418B1F75200CDEA8F /* Reachability.h in Headers */,
+				5C5BFB7F18B1F73C00CDEA8F /* MKNetworkEngine.h in Headers */,
+				5C5BFB8118B1F73C00CDEA8F /* MKNetworkKit.h in Headers */,
+				5C5BFB8218B1F73C00CDEA8F /* MKNetworkOperation.h in Headers */,
+				5C5BFB7318B1F71F00CDEA8F /* NSData+MKBase64.h in Headers */,
+				5C5BFB7518B1F71F00CDEA8F /* NSDate+RFC1123.h in Headers */,
+				5C5BFB7718B1F71F00CDEA8F /* NSDictionary+RequestEncoding.h in Headers */,
+				5C5BFB7918B1F71F00CDEA8F /* NSString+MKNetworkKitAdditions.h in Headers */,
+				5C5BFBA118B1F96500CDEA8F /* BKOAuthView.h in Headers */,
+				5C5BFBA618B1F9C800CDEA8F /* OAToken.h in Headers */,
+				5C2DE11C18B8F20900E6A552 /* BKService.h in Headers */,
+				5C5BFBA518B1F9C100CDEA8F /* OARequestParameter.h in Headers */,
+				5C5BFBA418B1F9B800CDEA8F /* OAConsumer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C7CFBB21890BD2B00922AE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C554F9B18969B5A00562EE2 /* OARequestParameter.h in Headers */,
+				5C554FB81896A26F00562EE2 /* BKActivityIndicator.h in Headers */,
+				5C554F9F18969B5A00562EE2 /* BKOAuthView.h in Headers */,
+				5C554F8B18969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.h in Headers */,
+				5C554F9D18969B5A00562EE2 /* OAToken.h in Headers */,
+				5C554F9418969B5A00562EE2 /* Base64Transcoder.h in Headers */,
+				5C554FB01896A05200562EE2 /* BK.h in Headers */,
+				5C2DE11B18B8F20900E6A552 /* BKService.h in Headers */,
+				5C554F9918969B5A00562EE2 /* OAConsumer.h in Headers */,
+				5C554F8F18969B5A00562EE2 /* NSString+URLEncoding.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +808,24 @@
 			productReference = 5C0BEDFC1883904A00FE179F /* libReachability.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		5C0C380218901446009DF472 /* MKNetworkKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0C380A18901446009DF472 /* Build configuration list for PBXNativeTarget "MKNetworkKit" */;
+			buildPhases = (
+				5C0C380318901446009DF472 /* Sources */,
+				5C0C380618901446009DF472 /* Frameworks */,
+				5C0C3838189016AC009DF472 /* Headers */,
+				5C110B611890BEEA00FD885C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKNetworkKit;
+			productName = SSKeychain;
+			productReference = 5C0C380D18901446009DF472 /* libMKNetworkKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		5C1EAAA6188BA41500F795E4 /* Bowl */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C1EAAB4188BA41500F795E4 /* Build configuration list for PBXNativeTarget "Bowl" */;
@@ -236,6 +845,95 @@
 			productReference = 5C1EAAA7188BA41500F795E4 /* Bowl.framework */;
 			productType = "com.apple.product-type.bundle";
 		};
+		5C4A48F018B0BF03004D3315 /* BowlKitFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4A490618B0BF03004D3315 /* Build configuration list for PBXNativeTarget "BowlKitFramework" */;
+			buildPhases = (
+				5C4A48FB18B0BF03004D3315 /* Sources */,
+				5C4A48FD18B0BF03004D3315 /* Frameworks */,
+				5C4A490218B0BF03004D3315 /* CopyFiles */,
+				5C4A490318B0BF03004D3315 /* Headers */,
+				5C4A490518B0BF03004D3315 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C4A48F118B0BF03004D3315 /* PBXTargetDependency */,
+			);
+			name = BowlKitFramework;
+			productName = BowlKit;
+			productReference = 5C4A490918B0BF03004D3315 /* libBowlKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5C522891188CF54200F10A0A /* SSKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5228AE188CF54300F10A0A /* Build configuration list for PBXNativeTarget "SSKeychain" */;
+			buildPhases = (
+				5C52288E188CF54200F10A0A /* Sources */,
+				5C52288F188CF54200F10A0A /* Frameworks */,
+				5C522890188CF54200F10A0A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSKeychain;
+			productName = SSKeychain;
+			productReference = 5C522892188CF54200F10A0A /* libSSKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5C5228EB188D03E700F10A0A /* Static Library Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5228F3188D03E700F10A0A /* Build configuration list for PBXNativeTarget "Static Library Core" */;
+			buildPhases = (
+				5C5228EC188D03E700F10A0A /* Sources */,
+				5C5228EF188D03E700F10A0A /* Frameworks */,
+				5C5228F0188D03E700F10A0A /* CopyFiles */,
+				5C7CFBB21890BD2B00922AE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Static Library Core";
+			productName = SSKeychain;
+			productReference = 5C5228F6188D03E700F10A0A /* libBowlKitCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5C91A6A11894E976001F7C54 /* JSONKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C91A6C01894E976001F7C54 /* Build configuration list for PBXNativeTarget "JSONKit" */;
+			buildPhases = (
+				5C91A6A21894E976001F7C54 /* Sources */,
+				5C91A6AC1894E976001F7C54 /* Frameworks */,
+				5C91A6B91894E976001F7C54 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONKit;
+			productName = SSKeychain;
+			productReference = 5C91A6C31894E976001F7C54 /* libJSONKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5CA1770E18A5D28200D855F1 /* Resource Bundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA1771D18A5D28200D855F1 /* Build configuration list for PBXNativeTarget "Resource Bundle" */;
+			buildPhases = (
+				5CA1770B18A5D28200D855F1 /* Sources */,
+				5CA1770C18A5D28200D855F1 /* Frameworks */,
+				5CA1770D18A5D28200D855F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Resource Bundle";
+			productName = BowlKitLibraryResources;
+			productReference = 5CA1770F18A5D28200D855F1 /* BowlKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		5CABCFE41882DFA300B2C1BC /* BowlKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CABD0081882DFA300B2C1BC /* Build configuration list for PBXNativeTarget "BowlKit" */;
@@ -248,7 +946,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				5C0BEE20188390F200FE179F /* PBXTargetDependency */,
+				5CA1772318A5D4CB00D855F1 /* PBXTargetDependency */,
+				5C91A6CB1894EA7E001F7C54 /* PBXTargetDependency */,
+				5C0C3844189017A9009DF472 /* PBXTargetDependency */,
+				5C5228FF188D0CD200F10A0A /* PBXTargetDependency */,
+				5C5228B9188CF60400F10A0A /* PBXTargetDependency */,
 			);
 			name = BowlKit;
 			productName = BowlKit;
@@ -270,6 +972,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 5CABCFDC1882DFA200B2C1BC;
 			productRefGroup = 5CABCFE61882DFA300B2C1BC /* Products */;
@@ -277,8 +980,15 @@
 			projectRoot = "";
 			targets = (
 				5CABCFE41882DFA300B2C1BC /* BowlKit */,
+				5CA1770E18A5D28200D855F1 /* Resource Bundle */,
 				5C0BEDFB1883904A00FE179F /* Reachability */,
 				5C1EAAA6188BA41500F795E4 /* Bowl */,
+				5C522891188CF54200F10A0A /* SSKeychain */,
+				5C5228EB188D03E700F10A0A /* Static Library Core */,
+				5C0C380218901446009DF472 /* MKNetworkKit */,
+				5C91A6A11894E976001F7C54 /* JSONKit */,
+				5CD67C7718B0A76000AC73A6 /* Framework */,
+				5C4A48F018B0BF03004D3315 /* BowlKitFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -288,6 +998,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA1770D18A5D28200D855F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA1772118A5D3AA00D855F1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +1025,33 @@
 			shellPath = /usr/bin/python;
 			shellScript = "# TAG: BUILD SCRIPT (do not remove this comment)\n# Build script generated using https://github.com/kstenerud/iOS-Universal-Framework Mk 8 (beta 2012-06-16)\nimport logging\n\n\n##############################################################################\n#\n# Configuration\n#\n##############################################################################\n\n# Select which kind of framework to build.\n#\n# Note: Due to issues with Xcode's build process, if you select\n#       'embeddedframework', it will still show the regular framework\n#       (as a symlink) along side of the embedded framework. Be sure to\n#       instruct your users to copy/move the embedded framework in this case!\n#\n# If your framework contains resources such as images, nibs, momds, plists,\n# zipfiles and such, choose 'embeddedframework'.\n#\n# If your framework contains no resources, choose 'framework'.\n#\nconfig_framework_type = 'framework'\n#config_framework_type = 'embeddedframework'\n\n# Open the build directory in Finder when the universal framework is\n# successfully built.\n#\n# This value can be overridden by setting the UFW_OPEN_BUILD_DIR env variable\n# to True or False.\n#\n# Recommended setting: True\n#\nconfig_open_build_dir = True\n\n# If true, ensures that all public headers are stored in the framework under\n# the same directory hierarchy as they were in the source tree.\n#\n# Xcode by default places all headers at the same top level, but every other\n# build tool in the known universe preserves directory structure. For simple\n# libraries it doesn't really matter much, but for ports of existing software\n# packages or for bigger libraries, it makes sense to have more structure.\n#\n# The default is set to \"False\" since that's what most Xcode users are used to.\n#\n# Recommended setting: True for deep hierarchy projects, False otherwise.\n#\nconfig_deep_header_hierarchy = False\n\n# Specify where the top of the public header hierarchy is. This path is\n# relative to the project's dir (PROJECT_DIR). You can reference environment\n# variables using templating syntax (e.g. \"${TARGET_NAME}/Some/Subdir\")\n#\n# NOTE: Only used if config_deep_header_hierarchy is True.\n#\n# If this is set to None, the script will attempt to figure out for itself\n# where the top of the header hierarchy is by looking for common path prefixes\n# in the public header files. This process can fail if:\n# - You only have one public header file.\n# - Your source header files don't all have a common root.\n#\n# A common approach is to use \"${TARGET_NAME}\", working under the assumption\n# that all of your header files share the common root of a directory under\n# your project with the same name as your target (which is the Xcode default).\n#\n# Recommended setting: \"${TARGET_NAME}\"\n#\nconfig_deep_header_top = \"${TARGET_NAME}\"\n\n# Warn when \"DerivedData\" is detected in any of the header, library, or\n# framework search paths. In almost all cases, references to directories under\n# DerivedData are added as a result of an Xcode bug and must be manually\n# removed.\n#\n# Recommended setting: True\n#\nconfig_warn_derived_data = True\n\n# Warn if no headers were marked public in this framework.\n#\n# Recommended setting: True\n#\nconfig_warn_no_public_headers = True\n\n# Cause the build to fail if any warnings are issued.\n#\n# Recommended setting: True\n#\nconfig_fail_on_warnings = True\n\n# Minimum log level\n#\n# Recommended setting: logging.INFO\n#\nconfig_log_level = logging.INFO\n\n\n##############################################################################\n#\n# Don't touch anything below here unless you know what you're doing.\n#\n##############################################################################\n\nimport collections\nimport json\nimport os\nimport re\nimport shlex\nimport shutil\nimport string\nimport subprocess\nimport sys\nimport time\nimport traceback\n\n\n##############################################################################\n#\n# Globals\n#\n##############################################################################\n\nlog = logging.getLogger('UFW')\n\nissued_warnings = False\n\n\n##############################################################################\n#\n# Classes\n#\n##############################################################################\n\n# Allows the slave build to communicate with the master build.\n#\nclass BuildState:\n\n    def __init__(self):\n        self.reload()\n\n    def reset(self):\n        self.slave_platform = None\n        self.slave_architectures = []\n        self.slave_linked_archive_paths = []\n        self.slave_built_fw_path = None\n        self.slave_built_embedded_fw_path = None\n\n    def set_slave_properties(self, architectures,\n                             linked_archive_paths,\n                             built_fw_path,\n                             built_embedded_fw_path):\n        self.slave_platform = os.environ['PLATFORM_NAME']\n        self.slave_architectures = architectures\n        self.slave_linked_archive_paths = linked_archive_paths\n        self.slave_built_fw_path = built_fw_path\n        self.slave_built_embedded_fw_path = built_embedded_fw_path\n\n    def get_save_path(self):\n        return os.path.join(os.environ['PROJECT_TEMP_DIR'], \"ufw_build_state.json\")\n\n    def persist(self):\n        filename = self.get_save_path()\n        parent = os.path.dirname(filename)\n        if not os.path.isdir(parent):\n            os.makedirs(parent)\n        with open(filename, \"w\") as f:\n            f.write(json.dumps(self.__dict__))\n\n    def reload(self):\n        self.reset()\n        filename = self.get_save_path()\n        if os.path.exists(filename):\n            with open(filename, \"r\") as f:\n                new_dict = json.loads(f.read())\n                if new_dict is not None:\n                    self.__dict__ = dict(self.__dict__.items() + new_dict.items())\n\n\n# Holds information about the current project and build environment.\n#\nclass Project:\n\n    def __init__(self, filename):\n        sourcecode_types = ['sourcecode.c.c',\n                            'sourcecode.c.objc',\n                            'sourcecode.cpp.cpp',\n                            'sourcecode.cpp.objcpp',\n                            'sourcecode.asm.asm',\n                            'sourcecode.asm.llvm',\n                            'sourcecode.nasm']\n\n        self.build_state = BuildState()\n        self.project_data = self.load_from_file(filename)\n        self.target = filter(lambda x: x['name'] == os.environ['TARGET_NAME'], self.project_data['targets'])[0]\n        self.public_headers = self.get_build_phase_files('PBXHeadersBuildPhase', lambda x: x.get('settings', False) and x['settings'].get('ATTRIBUTES', False) and 'Public' in x['settings']['ATTRIBUTES'])\n        self.static_libraries = self.get_build_phase_files('PBXFrameworksBuildPhase', lambda x: x['fileRef']['fileType'] == 'archive.ar' and x['fileRef']['sourceTree'] not in ['DEVELOPER_DIR', 'SDKROOT'])\n        self.static_frameworks = self.get_build_phase_files('PBXFrameworksBuildPhase', lambda x: x['fileRef']['fileType'] == 'wrapper.framework' and x['fileRef']['sourceTree'] not in ['DEVELOPER_DIR', 'SDKROOT'])\n        self.compilable_sources = self.get_build_phase_files('PBXSourcesBuildPhase', lambda x: x['fileRef']['fileType'] in sourcecode_types)\n        self.header_paths = [os.path.join(*x['pathComponents']) for x in self.public_headers]\n\n        self.headers_dir = os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['CONTENTS_FOLDER_PATH'], 'Headers')\n        self.libtool_path = os.path.join(os.environ['DT_TOOLCHAIN_DIR'], 'usr', 'bin', 'libtool')\n        self.project_filename = os.path.join(os.environ['PROJECT_FILE_PATH'], \"project.pbxproj\")\n        self.local_exe_path = os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['EXECUTABLE_PATH'])\n        self.local_architectures = os.environ['ARCHS'].split(' ')\n        self.local_built_fw_path = os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['WRAPPER_NAME'])\n        self.local_built_embedded_fw_path = os.path.splitext(self.local_built_fw_path)[0] + \".embeddedframework\"\n        self.local_linked_archive_paths = [self.get_linked_ufw_archive_path(arch) for arch in self.local_architectures]\n        self.local_platform = os.environ['PLATFORM_NAME']\n        other_platforms = os.environ['SUPPORTED_PLATFORMS'].split(' ')\n        other_platforms.remove(self.local_platform)\n        self.other_platform = other_platforms[0]\n\n        sdk_name = os.environ['SDK_NAME']\n        if not sdk_name.startswith(self.local_platform):\n            raise Exception(\"%s didn't start with %s\" % (sdk_name, self.local_platform))\n        self.sdk_version = sdk_name[len(self.local_platform):]\n\n    # Load an Xcode project file.\n    #\n    def load_from_file(self, filename):\n        project_file = json.loads(subprocess.check_output([\"plutil\", \"-convert\", \"json\", \"-o\", \"-\", filename]))\n        all_objects = project_file['objects']\n        del project_file['objects']\n        for obj in all_objects.values():\n            self.fix_keys(obj)\n        self.unpack_objects(self.build_dereference_list(all_objects, None, None, project_file))\n        self.unpack_objects(self.build_dereference_list(all_objects, None, None, all_objects.values()))\n        project_data = project_file['rootObject']\n        self.build_full_paths(project_data, splitpath(os.environ['SOURCE_ROOT']))\n        return project_data\n\n    def is_key(self, obj):        \n        return isinstance(obj, basestring) and len(obj) == 24 and re.search('^[0-9a-fA-F]+$', obj) is not None\n    \n    def build_dereference_list(self, all_objects, parent, key, obj):\n        deref_list = []\n        if self.is_key(obj):\n            dereferenced = all_objects.get(obj, obj)\n            if dereferenced is not obj:\n                deref_list.append((parent, key, obj, dereferenced))\n        elif isinstance(obj, collections.Mapping):\n            for k, v in obj.iteritems():\n                deref_list += self.build_dereference_list(all_objects, obj, k, v)\n        elif isinstance(obj, collections.Iterable) and not isinstance(obj, basestring):\n            for item in obj:\n                deref_list += self.build_dereference_list(all_objects, obj, None, item)\n        return deref_list\n    \n    def unpack_objects(self, deref_list):\n        for parent, key, orig, obj in deref_list:\n            if key is None:\n                parent.remove(orig)\n                parent.append(obj)\n            else:\n                parent[key] = obj\n\n    # Store the full path, separated into components, to a node inside the node\n    # as \"pathComponents\". Also recurse into that node if it's a group.\n    #\n    def build_full_paths(self, node, base_path):\n        # Some nodes are relative to a different source tree, specified as an\n        # env variable.\n        if node.get('sourceTree', '<group>') != '<group>':\n            new_base_path = os.environ.get(node['sourceTree'], None)\n            if new_base_path:\n                base_path = splitpath(new_base_path)\n        # Add the current node's path, if any.\n        if node.get('path', False):\n            base_path = base_path + splitpath(node['path'])\n        node['pathComponents'] = base_path\n        # Recurse if this is a group.\n        if node['isa'] == 'PBXGroup':\n            for child in node['children']:\n                self.build_full_paths(child, base_path)\n        elif node['isa'] == 'PBXProject':\n            self.build_full_paths(node['mainGroup'], base_path)\n            self.build_full_paths(node['productRefGroup'], base_path)\n            for child in node['targets']:\n                self.build_full_paths(child, base_path)\n            projectRefs = node.get('projectReferences', None)\n            if projectRefs is not None:\n                for child in projectRefs[0].values():\n                    self.build_full_paths(child, base_path)\n\n    # Fix up any inconvenient keys.\n    #\n    def fix_keys(self, obj):\n        key_remappings = {'lastKnownFileType': 'fileType', 'explicitFileType': 'fileType'}\n        for key in list(set(key_remappings.keys()) & set(obj.keys())):\n            obj[key_remappings[key]] = obj[key]\n            del obj[key]\n\n    # Get the files from a build phase.\n    #\n    def get_build_phase_files(self, build_phase_name, filter_func):\n        build_phase = filter(lambda x: x['isa'] == build_phase_name, self.target['buildPhases'])[0]\n        build_files = filter(filter_func, build_phase['files'])\n        return [x['fileRef'] for x in build_files]\n\n    # Get the truncated paths of all headers that start with the specified\n    # relative path. Paths are read and returned as fully separated lists.\n    # e.g. ['Some', 'Path', 'To', 'A', 'Header'] with relative_path of\n    # ['Some', 'Path'] gets truncated to ['To', 'A', 'Header']\n    #\n    def movable_headers_relative_to(self, relative_path):\n        rel_path_length = len(relative_path)\n        result = filter(lambda path: len(path) >= rel_path_length and\n                                     path[:rel_path_length] == relative_path, self.header_paths)\n        return [path[rel_path_length:] for path in result]\n\n    # Get the full path to where a linkable archive (library or framework)\n    # is supposed to be.\n    #\n    def get_linked_archive_path(self, architecture):\n        return os.path.join(os.environ['OBJECT_FILE_DIR_%s' % os.environ['CURRENT_VARIANT']],\n                            architecture,\n                            os.environ['EXECUTABLE_NAME'])\n\n    # Get the full path to our custom linked archive of the project.\n    #\n    def get_linked_ufw_archive_path(self, architecture):\n        return self.get_linked_archive_path(architecture) + \".ufwbuild\"\n\n    # Get the full path to the executable of an archive.\n    #\n    def get_exe_path(self, node):\n        path = os.path.join(*node['pathComponents'])\n        if node['fileType'] == 'wrapper.framework':\n            # Frameworks are directories, so go one deeper\n            path = os.path.join(path, os.path.splitext(node['pathComponents'][-1])[0])\n        return path\n\n    # Get the path to the directory containing the archive.\n    #\n    def get_containing_path(self, node):\n        return os.path.join(*node['pathComponents'])\n    \n    def get_archive_search_paths(self):\n        log.info(\"Search paths = %s\" % set([self.get_containing_path(fw) for fw in self.static_frameworks] + [self.get_containing_path(fw) for fw in self.static_libraries]))\n        return set([self.get_containing_path(fw) for fw in self.static_frameworks] + [self.get_containing_path(fw) for fw in self.static_libraries])\n\n    # Command to link all objects of a single architecture.\n    #\n    def get_single_arch_link_command(self, architecture):\n        cmd = [self.libtool_path,\n               \"-static\",\n               \"-arch_only\", architecture,\n               \"-syslibroot\", os.environ['SDKROOT'],\n               \"-L%s\" % os.environ['TARGET_BUILD_DIR'],\n               \"-filelist\", os.environ['LINK_FILE_LIST_%s_%s' % (os.environ['CURRENT_VARIANT'], architecture)]]\n        if os.environ.get('OTHER_LDFLAGS', False):\n            cmd += [os.environ['OTHER_LDFLAGS']]\n        if os.environ.get('WARNING_LDFLAGS', False):\n            cmd += [os.environ['WARNING_LDFLAGS']]\n#        cmd += [\"-L%s\" % libpath for libpath in self.get_archive_search_paths()]\n        cmd += [self.get_exe_path(fw) for fw in self.static_frameworks]\n        cmd += [self.get_exe_path(lib) for lib in self.static_libraries]\n        cmd += [\"-o\", self.get_linked_ufw_archive_path(architecture)]\n        return cmd\n\n    # Command to link all local architectures for the current configuration\n    # into an archive. This reads all libraries + the UFW-built archives and\n    # overwrites the final product.\n    #\n    def get_local_archs_link_command(self):\n        cmd = [self.libtool_path,\n               \"-static\"]\n        cmd += self.local_linked_archive_paths\n        cmd += [self.get_exe_path(fw) for fw in self.static_frameworks]\n        cmd += [self.get_exe_path(lib) for lib in self.static_libraries]\n        cmd += [\"-o\", os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['EXECUTABLE_PATH'])]\n        return cmd\n\n    # Command to link all architectures into a universal archive.\n    # This reads all UFW-built archives and overwrites the final product.\n    #\n    def get_all_archs_link_command(self):\n        cmd = [self.libtool_path,\n               \"-static\"]\n        cmd += self.local_linked_archive_paths + self.build_state.slave_linked_archive_paths\n        cmd += [\"-o\", os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['EXECUTABLE_PATH'])]\n        return cmd\n\n    # Build up an environment for the slave process. This uses BUILD_ROOT\n    # and TEMP_ROOT to convert all environment variables to values suitable\n    # for the slave build environment so that xcodebuild doesn't try to build\n    # in the project directory under \"build\".\n    #\n    def get_slave_environment(self):\n        ignored = ['LD_MAP_FILE_PATH',\n        'HEADER_SEARCH_PATHS',\n        'LIBRARY_SEARCH_PATHS',\n        'FRAMEWORK_SEARCH_PATHS']\n        build_root = os.environ['BUILD_ROOT']\n        temp_root = os.environ['TEMP_ROOT']\n        newenv = {}\n        for key, value in os.environ.items():\n            if key not in ignored and not key.startswith('LINK_FILE_LIST_') and not key.startswith('LD_DEPENDENCY_'):\n                if build_root in value or temp_root in value:\n                    newenv[key] = value.replace(self.local_platform, self.other_platform)\n        return newenv\n\n    # Command to invoke xcodebuild on the slave platform.\n    #\n    def get_slave_project_build_command(self):\n        cmd = [\"xcodebuild\",\n               \"-project\",\n               os.environ['PROJECT_FILE_PATH'],\n               \"-target\",\n               os.environ['TARGET_NAME'],\n               \"-configuration\",\n               os.environ['CONFIGURATION'],\n               \"-sdk\",\n               self.other_platform + self.sdk_version]\n        cmd += [\"%s=%s\" % (key, value) for key, value in self.get_slave_environment().items()]\n        cmd += [\"UFW_MASTER_PLATFORM=\" + os.environ['PLATFORM_NAME']]\n        cmd += [os.environ['ACTION']]\n        return cmd\n\n\n\n##############################################################################\n#\n# Utility Functions\n#\n##############################################################################\n\n# Split a path into a list of path components.\n#\ndef splitpath(path, maxdepth=20):\n     (head, tail) = os.path.split(path)\n     return splitpath(head, maxdepth - 1) + [tail] if maxdepth and head and head != path else [ head or tail ]\n\n# Remove all subdirectories under a path.\n#\ndef remove_subdirs(path, ignore_files):\n    if os.path.exists(path):\n        for filename in filter(lambda x: x not in ignore_files, os.listdir(path)):\n            fullpath = os.path.join(path, filename)\n            if os.path.isdir(fullpath):\n                log.info(\"Remove %s\" % fullpath)\n                shutil.rmtree(fullpath)\n\n# Make whatever parent paths are necessary for a path to exist.\n#\ndef ensure_path_exists(path):\n    if not os.path.isdir(path):\n        os.makedirs(path)\n\n# Make whatever parent paths are necessary for a path's parent to exist.\n#\ndef ensure_parent_exists(path):\n    parent = os.path.dirname(path)\n    if not os.path.isdir(parent):\n        os.makedirs(parent)\n\n# Remove a file or dir if it exists.\n#\ndef remove_path(path):\n    if os.path.exists(path):\n        if os.path.isdir(path) and not os.path.islink(path):\n            shutil.rmtree(path)\n        else:\n            os.remove(path)\n\n# Move a file or dir, replacing the destination if it exists.\n#\ndef move_file(src, dst):\n    if src == dst or not os.path.isfile(src):\n        return\n    log.info(\"Move %s to %s\" % (src, dst))\n    ensure_parent_exists(dst)\n    remove_path(dst)\n    shutil.move(src, dst)\n\n# Copy a file or dir, replacing the destination if it exists already.\n#\ndef copy_overwrite(src, dst):\n    if src != dst:\n        remove_path(dst)\n        ensure_parent_exists(dst)\n        shutil.copytree(src, dst, symlinks=True)\n\n# Attempt to symlink link_path -> link_to.\n# link_to must be a path relative to link_path's parent and must exist.\n# If link_path already exists, do nothing.\n#\ndef attempt_symlink(link_path, link_to):\n    # Only allow linking to an existing file\n    os.stat(os.path.abspath(os.path.join(link_path, \"..\", link_to)))\n\n    # Only make the link if it hasn't already been made\n    if not os.path.exists(link_path):\n        log.info(\"Symlink %s -> %s\" % (link_path, link_to))\n        os.symlink(link_to, link_path)\n\n# Takes the last entry in an array-based path and returns a normal path\n# relative to base_path.\n#\ndef top_level_file_path(base_path, path_list):\n    return os.path.join(base_path, os.path.split(path_list[-1])[-1])\n\n# Takes all entries in an array-based path and returns a normal path\n# relative to base_path.\n#\ndef full_file_path(base_path, path_list):\n    return os.path.join(*([base_path] + path_list))\n\n# Print a command before executing it.\n# Also print out all output from the command to STDOUT.\n#\ndef print_and_call(cmd):\n    log.info(\"Cmd \" + \" \".join(cmd))\n    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)\n    result = p.communicate()[0]\n    if len(result) > 0:\n        log.info(result)\n    if p.returncode != 0:\n        raise subprocess.CalledProcessError(p.returncode, cmd)\n\n# Special print-and-call command for the slave build that strips out\n# xcodebuild's spammy list of environment variables.\n#\ndef print_and_call_slave_build(cmd, other_platform):\n    separator = '=== BUILD NATIVE TARGET '\n    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)\n    result = p.communicate()[0].split(separator)\n    if len(result) == 1:\n        result = result[0]\n    else:\n        result = separator + result[1]\n    log.info(\"Cmd \" + \" \".join(cmd) + \"\\n\" + result)\n    if p.returncode != 0:\n        raise subprocess.CalledProcessError(p.returncode, cmd)\n\n# Issue a warning and record that a warning has been issued.\n#\ndef issue_warning(msg, *args, **kwargs):\n    global issued_warnings\n    issued_warnings = True\n    log.warn(msg, *args, **kwargs)\n\n\n\n##############################################################################\n#\n# Main Application\n#\n##############################################################################\n\n# Check if we are running as master.\n#\ndef is_master():\n    return os.environ.get('UFW_MASTER_PLATFORM', os.environ['PLATFORM_NAME']) == os.environ['PLATFORM_NAME']\n\n# DerivedData should almost never appear in any framework, library, or header\n# search paths. However, Xcode will sometimes add them in, so we check to make\n# sure.\n#\ndef check_for_derived_data_in_search_paths(project):\n    search_path_keys = [\"FRAMEWORK_SEARCH_PATHS\", \"LIBRARY_SEARCH_PATHS\", \"HEADER_SEARCH_PATHS\"]\n    build_configs = project.target['buildConfigurationList']['buildConfigurations']\n    build_settings = filter(lambda x: x['name'] == os.environ['CONFIGURATION'], build_configs)[0]['buildSettings']\n    \n    found_something = False\n    for path_key in filter(lambda x: x in build_settings, search_path_keys):\n        path = build_settings[path_key]\n        if \"DerivedData\" in path:\n            found_something = True\n            log.warn(\"Derived data in %s\" % path)\n            issue_warning(\"'%s' contains reference to 'DerivedData'.\" % path_key)\n    if found_something:\n        log.warn(\"Check your build settings and remove any entries that contain paths inside the DerivedData folder.\")\n        log.warn(\"Otherwise you can disable this warning by changing 'config_warn_derived_data' in this script.\")\n\n# Link local architectures into their respective archives.\n#\ndef link_local_archs(project):\n    for arch in project.local_architectures:\n        print_and_call(project.get_single_arch_link_command(arch))\n\n# Link only the local architectures into the final product, not the slave\n# architectures. For iphoneos, this will be armv6, armv7. For simulator, this\n# will be i386.\n#\ndef link_combine_local_archs(project):\n    print_and_call(project.get_local_archs_link_command())\n\n# Link all architectures into the final product.\n#\ndef link_combine_all_archs(project):\n    print_and_call(project.get_all_archs_link_command())\n\n# Check if we should open the build directory after a successful build.\n#\ndef should_open_build_dir():\n    env_setting = os.environ.get('UFW_OPEN_BUILD_DIR', None)\n    if env_setting is not None:\n        return env_setting\n\n    return config_open_build_dir\n\n# Open the build dir in Finder.\n#\ndef open_build_dir():\n    print_and_call(['open', os.environ['TARGET_BUILD_DIR']])\n\n# Check if the build was started by selecting \"Archive\" under \"Product\" in\n# Xcode.\n#\ndef is_archive_build():\n    # ACTION is always 'build', but perhaps Apple will fix this someday?\n    archive_build = os.environ['ACTION'] == 'archive'\n\n    if not archive_build:\n        # This can be passed in as an env variable when building from command line.\n        archive_build = os.environ.get('UFW_ACTION', None) == 'archive'\n\n    build_dir = splitpath(os.environ['BUILD_DIR'])\n    if not archive_build:\n        # This partial path is used when you select \"archive\" from within Xcode.\n        archive_build = 'ArchiveIntermediates' in build_dir\n\n    # It only counts as a full archive build if this target is being built into\n    # its own build dir (not being built as a dependency of another target)\n    if archive_build:\n        archive_build = os.environ['TARGET_NAME'] in build_dir\n    \n    return archive_build\n\n# Xcode by default throws all public headers into the top level directory.\n# This function moves them to their expected deep hierarchy.\n#\ndef build_deep_header_hierarchy(project):\n    header_path_top = config_deep_header_top\n    if not header_path_top:\n        header_path_top = os.path.commonprefix(project.header_paths)\n    else:\n        header_path_top = splitpath(header_path_top)\n\n    built_headers_path = os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['PUBLIC_HEADERS_FOLDER_PATH'])\n    movable_headers = project.movable_headers_relative_to(header_path_top)\n\n    # Remove subdirs if they only contain files that have been rebuilt\n    ignore_headers = filter(lambda x: not os.path.isfile(top_level_file_path(built_headers_path, x)), movable_headers)\n    remove_subdirs(built_headers_path, [file[0] for file in ignore_headers])\n\n    # Move rebuilt headers into their proper subdirs\n    for header in movable_headers:\n        move_file(top_level_file_path(built_headers_path, header), full_file_path(built_headers_path, header))\n\n# Add all symlinks needed to make a full framework structure:\n#\n# MyFramework.framework\n# |-- MyFramework -> Versions/Current/MyFramework\n# |-- Headers -> Versions/Current/Headers\n# |-- Resources -> Versions/Current/Resources\n# `-- Versions\n#     |-- A\n#     |   |-- MyFramework\n#     |   |-- Headers\n#     |   |   `-- MyFramework.h\n#     |   `-- Resources\n#     |       |-- Info.plist\n#     |       |-- MyViewController.nib\n#     |       `-- en.lproj\n#     |           `-- InfoPlist.strings\n#     `-- Current -> A\n#\ndef add_symlinks_to_framework(project):\n    base_dir = project.local_built_fw_path\n    attempt_symlink(os.path.join(base_dir, \"Versions\", \"Current\"), os.environ['FRAMEWORK_VERSION'])\n    if os.path.isdir(os.path.join(base_dir, \"Versions\", \"Current\", \"Headers\")):\n        attempt_symlink(os.path.join(base_dir, \"Headers\"), os.path.join(\"Versions\", \"Current\", \"Headers\"))\n    if os.path.isdir(os.path.join(base_dir, \"Versions\", \"Current\", \"Resources\")):\n        attempt_symlink(os.path.join(base_dir, \"Resources\"), os.path.join(\"Versions\", \"Current\", \"Resources\"))\n    attempt_symlink(os.path.join(base_dir, os.environ['EXECUTABLE_NAME']), os.path.join(\"Versions\", \"Current\", os.environ['EXECUTABLE_NAME']))\n\n# Build an embedded framework structure.\n# An embedded framework contains the actual framework, plus a \"Resources\"\n# directory containing symlinks to all resources found in the actual framework,\n# with the exception of \"Info.plist\" and anything ending in \".lproj\":\n#\n# MyFramework.embeddedframework\n# |-- MyFramework.framework\n# |   |-- MyFramework -> Versions/Current/MyFramework\n# |   |-- Headers -> Versions/Current/Headers\n# |   |-- Resources -> Versions/Current/Resources\n# |   `-- Versions\n# |       |-- A\n# |       |   |-- MyFramework\n# |       |   |-- Headers\n# |       |   |   `-- MyFramework.h\n# |       |   `-- Resources\n# |       |       |-- Info.plist\n# |       |       |-- MyViewController.nib\n# |       |       `-- en.lproj\n# |       |           `-- InfoPlist.strings\n# |       `-- Current -> A\n# `-- Resources\n#     `-- MyViewController.nib -> ../MyFramework.framework/Resources/MyViewController.nib\n#\ndef build_embedded_framework(project):\n    fw_path = project.local_built_fw_path\n    embedded_path = project.local_built_embedded_fw_path\n    fw_name = os.environ['WRAPPER_NAME']\n\n    if (os.path.islink(fw_path)):\n        # If the framework path is a link, the build result already in embeddedframework.\n        # Just recreate embeddedframework's Resources\n        remove_path(os.path.join(embedded_path, \"Resources\"))\n    else:\n        remove_path(embedded_path)\n        ensure_path_exists(embedded_path)\n        copy_overwrite(fw_path, os.path.join(embedded_path, fw_name))\n\n    # Create embeddedframework's Resources        \n    ensure_path_exists(os.path.join(embedded_path, \"Resources\"))\n    symlink_source = os.path.join(\"..\", fw_name, \"Resources\")\n    symlink_path = os.path.join(embedded_path, \"Resources\")\n    if os.path.isdir(os.path.join(fw_path, \"Resources\")):\n        for file in filter(lambda x: x != \"Info.plist\" and not x.endswith(\".lproj\"), os.listdir(os.path.join(fw_path, \"Resources\"))):\n            attempt_symlink(os.path.join(symlink_path, file), os.path.join(symlink_source, file))\n\n    # Remove the normal framework and replace it with a symlink to the copy\n    # in the embedded framework. This is needed because Xcode runs its strip\n    # phase AFTER the script runs.\n    embed_fw_wrapper = os.path.splitext(os.environ['WRAPPER_NAME'])[0] + \".embeddedframework\"\n    remove_path(fw_path)\n    attempt_symlink(fw_path, os.path.join(embed_fw_wrapper, os.environ['WRAPPER_NAME']))\n\n\n# Run the build process in slave mode to build the other configuration\n# (device/simulator).\n#\ndef run_slave_build(project):\n    print_and_call_slave_build(project.get_slave_project_build_command(), project.other_platform)\n\n# Run the build process.\n#\ndef run_build():\n    project = Project(os.path.join(os.environ['PROJECT_FILE_PATH'], \"project.pbxproj\"))\n\n    # Issue warnings only if we're master.\n    if is_master():\n        if len(project.compilable_sources) == 0:\n            raise Exception(\"No compilable sources found. Please add at least one source file to build target %s.\" % os.environ['TARGET_NAME'])\n\n        if config_warn_derived_data:\n            check_for_derived_data_in_search_paths(project)\n        if config_warn_no_public_headers and len(project.public_headers) == 0:\n            issue_warning('No headers in build target %s were marked public. Please move at least one header to \"Public\" in the \"Copy Headers\" build phase.' % os.environ['TARGET_NAME'])\n\n    # Only build slave if this is an archive build.\n    if is_archive_build():\n        if is_master():\n            log.debug(\"Building as MASTER\")\n            # The slave-side linker tries to include this (nonexistent) path as\n            # a library path.\n            ensure_path_exists(project.get_slave_environment()['BUILT_PRODUCTS_DIR'])\n            project.build_state.persist()\n            run_slave_build(project)\n            project.build_state.reload()\n        else:\n            log.debug(\"Building as SLAVE\")\n            project.build_state.reload()\n            project.build_state.set_slave_properties(project.local_architectures,\n                                                     project.local_linked_archive_paths,\n                                                     project.local_built_fw_path,\n                                                     project.local_built_embedded_fw_path)\n            project.build_state.persist()\n\n    link_local_archs(project)\n    \n    # Only do a universal binary when building an archive.\n    if is_archive_build() and is_master():\n        link_combine_all_archs(project)\n    else:\n        link_combine_local_archs(project)\n\n    if config_deep_header_hierarchy:\n        build_deep_header_hierarchy(project)\n\n    add_symlinks_to_framework(project)\n    \n    if is_master():\n        if config_framework_type == 'embeddedframework':\n            build_embedded_framework(project)\n        elif config_framework_type != 'framework':\n            raise Exception(\"%s: Unknown framework type for config_framework_type\" % config_framework_type)\n\n\nif __name__ == \"__main__\":\n    log_handler = logging.StreamHandler()\n    log_handler.setFormatter(logging.Formatter(\"%(name)s (\" + os.environ['PLATFORM_NAME'] + \"): %(levelname)s: %(message)s\"))\n    log.addHandler(log_handler)\n    log.setLevel(config_log_level)\n\n    error_code = 0\n    prefix = \"M\" if is_master() else \"S\"\n    log_handler.setFormatter(logging.Formatter(\"%(name)s (\" + prefix + \" \" + os.environ['PLATFORM_NAME'] + \"): %(levelname)s: %(message)s\"))\n\n    log.debug(\"Begin build process\")\n\n    if config_deep_header_top:\n        config_deep_header_top = string.Template(config_deep_header_top).substitute(os.environ)\n\n    try:\n        run_build()\n        if issued_warnings:\n            if config_fail_on_warnings:\n                error_code = 1\n            log.warn(\"Build completed with warnings\")\n        else:\n            log.info(\"Build completed\")\n        if not is_archive_build():\n            log.info(\"Note: This is *NOT* a universal framework build. To build as a universal framework, do an archive build.\")\n            log.info(\"To do an archive build from command line, use \\\"xcodebuild -configuration Release UFW_ACTION=archive clean build\\\"\")\n    except Exception:\n        traceback.print_exc(file=sys.stdout)\n        error_code = 1\n        log.error(\"Build failed\")\n    finally:\n        if error_code == 0 and is_archive_build() and is_master():\n            log.info(\"Built framework is in \" + os.environ['TARGET_BUILD_DIR'])\n            if should_open_build_dir():\n                open_build_dir()\n        sys.exit(error_code)\n";
 		};
+		5C4A490518B0BF03004D3315 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n\n# Link the \"Current\" version to \"${FRAMEWORK_VERSION}\"\nln -sfh ${FRAMEWORK_VERSION} \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\nln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\ncp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n";
+		};
+		5CD67C7F18B0A77B00AC73A6 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -314,7 +1059,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C9C20F61888281F00DA2261 /* BKReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0C380318901446009DF472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0C38361890161A009DF472 /* MKNetworkOperation.m in Sources */,
+				5C0C382F1890161A009DF472 /* NSData+MKBase64.m in Sources */,
+				5C0C38301890161A009DF472 /* NSDate+RFC1123.m in Sources */,
+				5C0C38371890161A009DF472 /* Reachability.m in Sources */,
+				5C0C38351890161A009DF472 /* MKNetworkEngine.m in Sources */,
+				5C0C38321890161A009DF472 /* NSString+MKNetworkKitAdditions.m in Sources */,
+				5C0C38311890161A009DF472 /* NSDictionary+RequestEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,8 +1080,81 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFD3364188ECF0500CE692A /* SSKeychainQuery.m in Sources */,
+				5CFD3363188ECF0000CE692A /* SSKeychain.m in Sources */,
 				5C1EAAB7188BA49D00F795E4 /* DummyLibFile.m in Sources */,
-				5C1EAAB6188BA49500F795E4 /* BKReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4A48FB18B0BF03004D3315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5BFB7218B1F6E600CDEA8F /* SSKeychainQuery.m in Sources */,
+				5C5BFB7118B1F6DD00CDEA8F /* SSKeychain.m in Sources */,
+				5C5BFB7018B1F6D600CDEA8F /* BKOAuthView.m in Sources */,
+				5C5BFB6B18B1F6AB00CDEA8F /* OAConsumer.m in Sources */,
+				5C5BFB6D18B1F6AB00CDEA8F /* OARequestParameter.m in Sources */,
+				5C5BFB6F18B1F6AB00CDEA8F /* OAToken.m in Sources */,
+				5C5BFB6518B1F69700CDEA8F /* Base64Transcoder.c in Sources */,
+				5C5BFB5E18B1F67B00CDEA8F /* NSHTTPCookieStorage+DeleteForURL.m in Sources */,
+				5C5BFB6218B1F67B00CDEA8F /* NSString+URLEncoding.m in Sources */,
+				5C5BFB5D18B1F66F00CDEA8F /* BK.m in Sources */,
+				5C2DE11E18B8F20900E6A552 /* BKService.m in Sources */,
+				5C5BFB5C18B1F66900CDEA8F /* BKActivityIndicator.m in Sources */,
+				5C5BFB5B18B1F65C00CDEA8F /* BKConfiguration.m in Sources */,
+				5C5BFB5A18B1F65600CDEA8F /* DefaultBKConfigurator.m in Sources */,
+				5C5BFB5918B1F64E00CDEA8F /* Reachability.m in Sources */,
+				5C5BFB5818B1F64800CDEA8F /* MKNetworkOperation.m in Sources */,
+				5C5BFB5718B1F64300CDEA8F /* MKNetworkEngine.m in Sources */,
+				5C5BFB4C18B1F61E00CDEA8F /* NSData+MKBase64.m in Sources */,
+				5C5BFB4E18B1F61E00CDEA8F /* NSDate+RFC1123.m in Sources */,
+				5C5BFB5018B1F61E00CDEA8F /* NSDictionary+RequestEncoding.m in Sources */,
+				5C5BFB5218B1F61E00CDEA8F /* NSString+MKNetworkKitAdditions.m in Sources */,
+				5C4A490C18B0BF82004D3315 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C52288E188CF54200F10A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFD3360188ECEC900CE692A /* SSKeychainQuery.m in Sources */,
+				5CFD335F188ECEC300CE692A /* SSKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5228EC188D03E700F10A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C554F9318969B5A00562EE2 /* Base64Transcoder.c in Sources */,
+				5C554F9018969B5A00562EE2 /* NSString+URLEncoding.m in Sources */,
+				5C5228FA188D05A800F10A0A /* BKConfiguration.m in Sources */,
+				5C5228F9188D05A300F10A0A /* DefaultBKConfigurator.m in Sources */,
+				5C554FB11896A05200562EE2 /* BK.m in Sources */,
+				5C554F9C18969B5A00562EE2 /* OARequestParameter.m in Sources */,
+				5C554F9A18969B5A00562EE2 /* OAConsumer.m in Sources */,
+				5C554F9E18969B5A00562EE2 /* OAToken.m in Sources */,
+				5C2DE11D18B8F20900E6A552 /* BKService.m in Sources */,
+				5C554FB91896A26F00562EE2 /* BKActivityIndicator.m in Sources */,
+				5C554F8C18969B5A00562EE2 /* NSHTTPCookieStorage+DeleteForURL.m in Sources */,
+				5C554FA018969B5A00562EE2 /* BKOAuthView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C91A6A21894E976001F7C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C91A6C71894EA28001F7C54 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA1770B18A5D28200D855F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,12 +1169,59 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5C0BEE20188390F200FE179F /* PBXTargetDependency */ = {
+		5C0C3844189017A9009DF472 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C0BEDFB1883904A00FE179F /* Reachability */;
-			targetProxy = 5C0BEE1F188390F200FE179F /* PBXContainerItemProxy */;
+			target = 5C0C380218901446009DF472 /* MKNetworkKit */;
+			targetProxy = 5C0C3843189017A9009DF472 /* PBXContainerItemProxy */;
+		};
+		5C4A48F118B0BF03004D3315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA1770E18A5D28200D855F1 /* Resource Bundle */;
+			targetProxy = 5C4A48F218B0BF03004D3315 /* PBXContainerItemProxy */;
+		};
+		5C5228B9188CF60400F10A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C522891188CF54200F10A0A /* SSKeychain */;
+			targetProxy = 5C5228B8188CF60400F10A0A /* PBXContainerItemProxy */;
+		};
+		5C5228FF188D0CD200F10A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C5228EB188D03E700F10A0A /* Static Library Core */;
+			targetProxy = 5C5228FE188D0CD200F10A0A /* PBXContainerItemProxy */;
+		};
+		5C74F69C18B0C25B002A2908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C4A48F018B0BF03004D3315 /* BowlKitFramework */;
+			targetProxy = 5C74F69B18B0C25B002A2908 /* PBXContainerItemProxy */;
+		};
+		5C91A6CB1894EA7E001F7C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C91A6A11894E976001F7C54 /* JSONKit */;
+			targetProxy = 5C91A6CA1894EA7E001F7C54 /* PBXContainerItemProxy */;
+		};
+		5CA1772318A5D4CB00D855F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA1770E18A5D28200D855F1 /* Resource Bundle */;
+			targetProxy = 5CA1772218A5D4CB00D855F1 /* PBXContainerItemProxy */;
+		};
+		5CD67C7E18B0A77100AC73A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA1770E18A5D28200D855F1 /* Resource Bundle */;
+			targetProxy = 5CD67C7D18B0A77100AC73A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C554FF41896A60700562EE2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C554FF51896A60700562EE2 /* en */,
+				5C554FF61896A62F00562EE2 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5C0BEE191883904A00FE179F /* Debug */ = {
@@ -352,7 +1230,7 @@
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				DSTROOT = /tmp/Reachability.dst;
+				DSTROOT = /tmp/BowlKit.dst;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
@@ -375,7 +1253,7 @@
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				DSTROOT = /tmp/Reachability.dst;
+				DSTROOT = /tmp/BowlKit.dst;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
@@ -384,6 +1262,42 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5C0C380B18901446009DF472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/BowlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = MKNetworkKit;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C0C380C18901446009DF472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/BowlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = MKNetworkKit;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -438,6 +1352,189 @@
 			};
 			name = Release;
 		};
+		5C4A490718B0BF03004D3315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/BowlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C4A490818B0BF03004D3315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/BowlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5C5228AF188CF54300F10A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/BowlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C5228B0188CF54300F10A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/BowlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5C5228F4188D03E700F10A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/BowlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = BowlKitCore;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C5228F5188D03E700F10A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/BowlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = BowlKitCore;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5C91A6C11894E976001F7C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/BowlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = JSONKit;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C91A6C21894E976001F7C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/BowlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlKitLibrary/BowlKit-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = JSONKit;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CA1771E18A5D28200D855F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BowlKitLibraryResources/BowlKitLibraryResources-Info.plist";
+				INSTALL_PATH = "";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = BowlKit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5CA1771F18A5D28200D855F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "BowlKitLibraryResources/BowlKitLibraryResources-Info.plist";
+				INSTALL_PATH = "";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = BowlKit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		5CABD0061882DFA300B2C1BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,7 +1567,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -502,7 +1599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -519,6 +1616,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -534,7 +1632,22 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CD67C7918B0A76000AC73A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CD67C7A18B0A76000AC73A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -550,11 +1663,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5C0C380A18901446009DF472 /* Build configuration list for PBXNativeTarget "MKNetworkKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0C380B18901446009DF472 /* Debug */,
+				5C0C380C18901446009DF472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5C1EAAB4188BA41500F795E4 /* Build configuration list for PBXNativeTarget "Bowl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C1EAAB2188BA41500F795E4 /* Debug */,
 				5C1EAAB3188BA41500F795E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4A490618B0BF03004D3315 /* Build configuration list for PBXNativeTarget "BowlKitFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4A490718B0BF03004D3315 /* Debug */,
+				5C4A490818B0BF03004D3315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C5228AE188CF54300F10A0A /* Build configuration list for PBXNativeTarget "SSKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5228AF188CF54300F10A0A /* Debug */,
+				5C5228B0188CF54300F10A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C5228F3188D03E700F10A0A /* Build configuration list for PBXNativeTarget "Static Library Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5228F4188D03E700F10A0A /* Debug */,
+				5C5228F5188D03E700F10A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C91A6C01894E976001F7C54 /* Build configuration list for PBXNativeTarget "JSONKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C91A6C11894E976001F7C54 /* Debug */,
+				5C91A6C21894E976001F7C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA1771D18A5D28200D855F1 /* Build configuration list for PBXNativeTarget "Resource Bundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA1771E18A5D28200D855F1 /* Debug */,
+				5CA1771F18A5D28200D855F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -573,6 +1740,15 @@
 			buildConfigurations = (
 				5CABD0091882DFA300B2C1BC /* Debug */,
 				5CABD00A1882DFA300B2C1BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD67C7818B0A76000AC73A6 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD67C7918B0A76000AC73A6 /* Debug */,
+				5CD67C7A18B0A76000AC73A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
